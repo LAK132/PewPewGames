@@ -1,0 +1,930 @@
+﻿Log file open, 08/22/17 12:45:57
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-24742752) SRandInit(-24742752).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.208905
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.22-03.15.58:863][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-03.15.58:863][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.22-03.15.58:969][  0]LogInit: Computer: ALAN
+[2017.08.22-03.15.58:969][  0]LogInit: User: lak132
+[2017.08.22-03.15.58:969][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.22-03.15.58:969][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.08.22-03.15.58:969][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.22-03.15.58:969][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.22-03.15.58:969][  0]LogMemory: Process Physical Memory: 278.09 MB used, 278.09 MB peak
+[2017.08.22-03.15.58:969][  0]LogMemory: Process Virtual Memory: 274.45 MB used, 274.45 MB peak
+[2017.08.22-03.15.58:969][  0]LogMemory: Physical Memory: 6973.84 MB used,  1125.98 MB free, 8099.82 MB total
+[2017.08.22-03.15.58:969][  0]LogMemory: Virtual Memory: 670.29 MB used,  1125.98 MB free, 134217728.00 MB total
+[2017.08.22-03.15.59:728][  0]LogInit: Using OS detected language (en-US).
+[2017.08.22-03.15.59:728][  0]LogInit: Using OS detected locale (en-AU).
+[2017.08.22-03.15.59:899][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.22-03.16.05:098][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.22-03.16.05:140][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.08.22-03.16.05:140][  0]LogD3D11RHI:       4065/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.22-03.16.05:156][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.08.22-03.16.05:156][  0]LogD3D11RHI:       128/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.22-03.16.05:161][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.22-03.16.05:161][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.22-03.16.05:162][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.22-03.16.05:169][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.22-03.16.05:169][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.08.22-03.16.05:169][  0]LogWindows: EnumDisplayDevices:
+[2017.08.22-03.16.05:170][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.08.22-03.16.05:170][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.22-03.16.05:170][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.22-03.16.05:170][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.22-03.16.05:170][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.08.22-03.16.05:170][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.22-03.16.05:170][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.22-03.16.05:170][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.22-03.16.05:186][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.22-03.16.05:200][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.22-03.16.05:201][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Intermediate/Shaders/WorkingDirectory/13056/).
+[2017.08.22-03.16.05:201][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lak132/AppData/Local/Temp/UnrealShaderWorkingDir/28B6107341E68427BB0CF4A95E2B2109/'.
+[2017.08.22-03.16.05:201][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.22-03.16.08:199][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.22-03.16.08:242][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.22-03.16.08:289][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.22-03.16.08:333][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.22-03.16.08:401][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.22-03.16.08:443][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.22-03.16.08:486][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.22-03.16.08:531][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.22-03.16.08:570][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.22-03.16.08:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.22-03.16.08:668][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.22-03.16.08:712][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.22-03.16.08:755][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.22-03.16.08:800][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.22-03.16.08:839][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.22-03.16.08:922][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.22-03.16.08:922][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.22-03.16.08:952][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.22-03.16.09:078][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.22-03.16.09:106][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.22-03.16.09:145][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.22-03.16.09:194][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.22-03.16.09:236][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.22-03.16.09:282][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.22-03.16.09:282][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.22-03.16.10:106][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.22-03.16.10:243][  0]LogDerivedDataCache: Loaded boot cache 0.14s 93MB C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.22-03.16.10:244][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.22-03.16.10:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.22-03.16.10:244][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.22-03.16.10:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.22-03.16.10:244][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.22-03.16.10:274][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.22-03.16.10:287][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lak132/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.22-03.16.10:301][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.22-03.16.10:302][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.22-03.16.10:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-03.16.10:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-03.16.14:008][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2017.08.22-03.16.14:143][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-03.16.14:343][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.22-03.16.15:066][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.22-03.16.15:125][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.22-03.16.15:125][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.22-03.16.15:125][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.22-03.16.15:125][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.22-03.16.15:125][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.22-03.16.15:545][  0]LogNetVersion: Game , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2957514414)
+[2017.08.22-03.16.15:862][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.137685 seconds
+[2017.08.22-03.16.15:870][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.22-03.16.15:870][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.22-03.16.15:870][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.22-03.16.15:919][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.22-03.16.28:245][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.22-03.16.28:296][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.22-03.16.28:836][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.22-03.16.29:196][  0]SourceControl: Source control is disabled
+[2017.08.22-03.16.29:196][  0]SourceControl: Source control is disabled
+[2017.08.22-03.16.29:240][  0]SourceControl: Source control is disabled
+[2017.08.22-03.16.29:279][  0]SourceControl: Source control is disabled
+[2017.08.22-03.16.29:786][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.22-03.16.30:004][  0]LogOcInput: OculusInput pre-init called
+[2017.08.22-03.16.30:239][  0]LogEngine: Initializing Engine...
+[2017.08.22-03.16.30:241][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.22-03.16.30:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.22-03.16.30:557][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.22-03.16.30:674][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.22-03.16.30:685][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-03.16.30:755][  0]LogInit: FAudioDevice initialized.
+[2017.08.22-03.16.30:860][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.22-03.16.30:891][  0]LogInit: Texture streaming: Enabled
+[2017.08.22-03.16.30:984][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.22-03.16.31:245][  0]LogInit: Transaction tracking system initialized
+[2017.08.22-03.16.31:482][  0]BlueprintLog: New page: Editor Load
+[2017.08.22-03.16.32:347][  0]LocalizationService: Localization service is disabled
+[2017.08.22-03.16.32:954][  0]LogConsoleResponse: Display: 
+[2017.08.22-03.16.33:226][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/' took 0.01s
+[2017.08.22-03.16.33:226][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.22-03.16.33:226][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.22-03.16.33:226][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.22-03.16.34:120][  0]SourceControl: Source control is disabled
+[2017.08.22-03.16.34:218][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Program Files/Epic Games/UE_4.17/FeaturePacks/StarterContent.upack)
+[2017.08.22-03.16.34:258][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.08.22-03.16.34:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.08.22-03.16.34:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.08.22-03.16.34:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.08.22-03.16.34:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.08.22-03.16.34:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.08.22-03.16.34:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.08.22-03.16.34:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.08.22-03.16.34:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.08.22-03.16.34:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.08.22-03.16.34:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.08.22-03.16.34:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.08.22-03.16.34:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.08.22-03.16.34:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.08.22-03.16.34:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.08.22-03.16.34:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.08.22-03.16.34:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.08.22-03.16.34:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.08.22-03.16.34:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Fire01.uasset"
+[2017.08.22-03.16.34:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.08.22-03.16.34:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.08.22-03.16.34:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.08.22-03.16.34:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Light01.uasset"
+[2017.08.22-03.16.34:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.08.22-03.16.34:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Light02.uasset"
+[2017.08.22-03.16.34:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.08.22-03.16.34:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.08.22-03.16.34:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.08.22-03.16.34:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.08.22-03.16.34:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.08.22-03.16.34:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.08.22-03.16.35:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.08.22-03.16.35:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.08.22-03.16.35:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.08.22-03.16.35:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Steam01.uasset"
+[2017.08.22-03.16.35:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.08.22-03.16.35:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.08.22-03.16.35:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.08.22-03.16.35:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.08.22-03.16.35:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.08.22-03.16.35:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.08.22-03.16.35:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.08.22-03.16.35:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.08.22-03.16.35:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.08.22-03.16.35:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.08.22-03.16.35:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.08.22-03.16.35:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.08.22-03.16.35:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.08.22-03.16.35:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.08.22-03.16.35:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.08.22-03.16.35:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.08.22-03.16.35:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.08.22-03.16.36:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.08.22-03.16.36:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.08.22-03.16.36:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.08.22-03.16.36:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.08.22-03.16.36:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.08.22-03.16.36:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Maps/StarterMap.umap"
+[2017.08.22-03.16.36:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.08.22-03.16.36:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.08.22-03.16.36:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.08.22-03.16.36:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.08.22-03.16.37:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.08.22-03.16.37:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.08.22-03.16.37:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.08.22-03.16.37:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.08.22-03.16.37:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.08.22-03.16.37:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.08.22-03.16.37:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.08.22-03.16.37:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.08.22-03.16.37:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.08.22-03.16.38:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.08.22-03.16.38:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.08.22-03.16.38:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.08.22-03.16.38:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.08.22-03.16.38:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.08.22-03.16.38:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.08.22-03.16.38:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.08.22-03.16.38:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.08.22-03.16.38:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.08.22-03.16.38:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.08.22-03.16.38:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.08.22-03.16.38:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.08.22-03.16.38:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.08.22-03.16.38:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.08.22-03.16.38:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.08.22-03.16.38:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.08.22-03.16.38:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.08.22-03.16.38:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.08.22-03.16.38:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.08.22-03.16.38:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.08.22-03.16.38:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.08.22-03.16.38:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.08.22-03.16.38:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.08.22-03.16.38:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.08.22-03.16.38:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.08.22-03.16.38:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.08.22-03.16.38:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.08.22-03.16.38:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.08.22-03.16.38:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.08.22-03.16.38:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.08.22-03.16.38:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.08.22-03.16.38:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.08.22-03.16.38:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.08.22-03.16.38:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.08.22-03.16.38:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.08.22-03.16.38:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.08.22-03.16.38:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.08.22-03.16.38:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.08.22-03.16.38:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.08.22-03.16.38:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.08.22-03.16.38:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.08.22-03.16.38:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.08.22-03.16.38:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.08.22-03.16.38:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.08.22-03.16.38:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.08.22-03.16.38:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.08.22-03.16.38:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.08.22-03.16.38:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.08.22-03.16.38:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.08.22-03.16.38:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.08.22-03.16.38:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.08.22-03.16.38:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.08.22-03.16.38:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Door.uasset"
+[2017.08.22-03.16.38:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.08.22-03.16.38:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.08.22-03.16.39:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.08.22-03.16.39:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.08.22-03.16.39:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.08.22-03.16.39:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.08.22-03.16.39:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.08.22-03.16.39:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.08.22-03.16.39:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.08.22-03.16.39:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.08.22-03.16.39:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.08.22-03.16.39:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.08.22-03.16.39:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.08.22-03.16.39:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.08.22-03.16.39:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.08.22-03.16.39:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.08.22-03.16.39:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.08.22-03.16.39:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.08.22-03.16.39:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.08.22-03.16.39:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.08.22-03.16.39:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.08.22-03.16.39:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.08.22-03.16.39:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.08.22-03.16.39:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.08.22-03.16.39:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.08.22-03.16.39:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.08.22-03.16.39:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.08.22-03.16.39:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.08.22-03.16.39:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.08.22-03.16.39:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.08.22-03.16.39:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.08.22-03.16.39:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.08.22-03.16.39:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.08.22-03.16.39:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.08.22-03.16.39:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.08.22-03.16.39:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.08.22-03.16.39:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.08.22-03.16.39:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.08.22-03.16.39:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.08.22-03.16.39:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.08.22-03.16.39:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.08.22-03.16.39:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.08.22-03.16.39:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.08.22-03.16.39:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.08.22-03.16.39:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.08.22-03.16.39:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.08.22-03.16.39:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.08.22-03.16.40:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.08.22-03.16.40:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.08.22-03.16.40:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.08.22-03.16.40:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.08.22-03.16.40:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.08.22-03.16.40:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.08.22-03.16.40:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.08.22-03.16.41:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.08.22-03.16.41:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.08.22-03.16.41:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.08.22-03.16.42:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.08.22-03.16.42:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.08.22-03.16.42:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.08.22-03.16.42:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.08.22-03.16.42:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.08.22-03.16.42:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.08.22-03.16.42:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.08.22-03.16.42:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.08.22-03.16.42:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.08.22-03.16.42:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.08.22-03.16.42:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.08.22-03.16.42:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.08.22-03.16.42:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.08.22-03.16.43:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.08.22-03.16.43:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.08.22-03.16.43:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.08.22-03.16.43:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.08.22-03.16.43:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.08.22-03.16.43:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.08.22-03.16.43:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.08.22-03.16.44:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.08.22-03.16.44:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.08.22-03.16.44:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.08.22-03.16.44:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.08.22-03.16.45:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.08.22-03.16.45:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.08.22-03.16.46:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.08.22-03.16.46:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.08.22-03.16.46:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.08.22-03.16.46:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.08.22-03.16.46:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.08.22-03.16.46:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.08.22-03.16.46:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.08.22-03.16.46:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.08.22-03.16.46:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.08.22-03.16.46:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.08.22-03.16.46:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.08.22-03.16.46:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.08.22-03.16.46:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.08.22-03.16.47:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.08.22-03.16.47:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.08.22-03.16.47:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.08.22-03.16.47:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.08.22-03.16.47:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.08.22-03.16.47:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.08.22-03.16.47:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.08.22-03.16.47:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.08.22-03.16.47:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.08.22-03.16.48:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.08.22-03.16.48:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.08.22-03.16.49:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.08.22-03.16.49:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.08.22-03.16.49:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.08.22-03.16.49:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.08.22-03.16.49:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.08.22-03.16.50:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.08.22-03.16.50:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.08.22-03.16.50:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.08.22-03.16.50:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.08.22-03.16.50:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.08.22-03.16.50:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.08.22-03.16.50:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.08.22-03.16.51:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.08.22-03.16.51:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.08.22-03.16.51:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.08.22-03.16.52:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.08.22-03.16.52:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.08.22-03.16.52:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.08.22-03.16.52:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.08.22-03.16.52:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.08.22-03.16.52:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.08.22-03.16.52:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.08.22-03.16.52:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.08.22-03.16.52:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.08.22-03.16.52:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.08.22-03.16.52:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.08.22-03.16.52:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.08.22-03.16.52:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.08.22-03.16.52:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.08.22-03.16.52:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.08.22-03.16.52:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.08.22-03.16.52:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.08.22-03.16.52:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.08.22-03.16.53:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.08.22-03.16.53:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.08.22-03.16.53:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.08.22-03.16.53:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.08.22-03.16.53:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.08.22-03.16.53:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.08.22-03.16.53:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.08.22-03.16.55:351][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2017.08.22-03.16.55:427][  0]LogStaticMesh: Built static mesh [0.08s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2017.08.22-03.16.57:171][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2017.08.22-03.16.57:941][  0]LogSavePackage: Save=188.99ms
+[2017.08.22-03.16.57:941][  0]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/Floor_400x400D335277A412060DCBCC1488725FA2D65.tmp' to '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.08.22-03.16.57:979][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.08.22-03.16.57:979][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2017.08.22-03.16.58:026][  0]Cmd: MAP LOAD FILE="../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.22-03.16.58:169][  0]LightingResults: New page: Lighting Build
+[2017.08.22-03.17.00:501][  0]MapCheck: New page: Map Check
+[2017.08.22-03.17.00:501][  0]LightingResults: New page: Lighting Build
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2017.08.22-03.17.06:773][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2017.08.22-03.17.06:795][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
+[2017.08.22-03.17.07:865][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
+[2017.08.22-03.17.07:866][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
+[2017.08.22-03.17.07:866][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
+[2017.08.22-03.17.07:866][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
+[2017.08.22-03.17.07:866][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
+[2017.08.22-03.17.07:866][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2017.08.22-03.17.08:552][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-03.17.09:396][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.22-03.17.09:671][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.22-03.17.09:763][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.552ms to complete.
+[2017.08.22-03.17.09:763][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 11.750
+[2017.08.22-03.17.12:024][  0]LogCollectionManager: Loaded 0 collections in 0.000911 seconds
+[2017.08.22-03.17.12:254][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/Collections/' took 0.01s
+[2017.08.22-03.17.12:254][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/Developers/lak132/Collections/' took 0.01s
+[2017.08.22-03.17.12:254][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/Collections/' took 0.01s
+[2017.08.22-03.17.12:254][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.08.22-03.17.12:296][  0]LogContentBrowser: Native class hierarchy populated in 0.0271 seconds. Added 2386 classes and 500 folders.
+[2017.08.22-03.17.12:511][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.22-03.17.13:436][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.08.22-03.17.13:576][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.22-03.17.14:490][  0]LogSlate: Took 0.015246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.22-03.17.14:509][  0]LogSlate: Took 0.016431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.22-03.17.14:636][  0]LogSlate: Took 0.047136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.22-03.17.15:087][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2017.08.22-03.17.15:485][  0]LogSlate: Took 0.020723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-03.17.16:270][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.22-03.17.16:270][  0]LogLoad: (Engine Initialization) Total time: 84.20 seconds
+[2017.08.22-03.17.16:270][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.22-03.17.16:306][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.22-03.17.16:306][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.22-03.17.18:611][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.22-03.17.19:330][  2]LogAssetRegistry: Asset discovery search completed in 65.3441 seconds
+[2017.08.22-03.17.19:341][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.22-03.17.19:341][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2017.08.22-03.22.38:802][984]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-03.22.39:207][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-03.22.39:225][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-03.22.39:439][984]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 10:22:39 pm)
+[2017.08.22-03.22.39:462][984]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-03.22.39:614][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152263s)
+[2017.08.22-03.22.39:616][984]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-03.22.39:644][984]LogPlayLevel: PIE: World Init took: (0.029576s)
+[2017.08.22-03.22.39:676][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.213811s)
+[2017.08.22-03.22.39:707][984]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-03.22.39:751][984]LogInit: FAudioDevice initialized.
+[2017.08.22-03.22.39:855][984]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-03.22.39:995][984]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.08.22-12.52.39
+[2017.08.22-03.22.40:048][984]LogWorld: Bringing up level for play took: 0.082364
+[2017.08.22-03.22.42:314][984]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0028 seconds. Added 11 classes and 0 folders.
+[2017.08.22-03.22.42:421][984]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.397
+[2017.08.22-03.22.42:431][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-03.22.59:693][487]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1347.278 Y=-307.205 Z=378.595] for [FirstPersonProjectile_C]
+[2017.08.22-03.24.27:276][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-03.24.27:390][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-03.29.08:027][959]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-03.29.08:054][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-03.29.08:054][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-03.29.08:054][959]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 10:29:08 pm)
+[2017.08.22-03.29.08:055][959]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-03.29.08:088][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032618s)
+[2017.08.22-03.29.08:090][959]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-03.29.08:090][959]LogPlayLevel: PIE: World Init took: (0.001730s)
+[2017.08.22-03.29.08:090][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035039s)
+[2017.08.22-03.29.08:115][959]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-03.29.08:148][959]LogInit: FAudioDevice initialized.
+[2017.08.22-03.29.08:217][959]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-03.29.08:222][959]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.08.22-12.59.08
+[2017.08.22-03.29.08:222][959]LogWorld: Bringing up level for play took: 0.003748
+[2017.08.22-03.29.08:224][959]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.201
+[2017.08.22-03.29.08:225][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-03.30.05:164][675]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1382.295 Y=1659.521 Z=425.491] for [FirstPersonProjectile_C]
+[2017.08.22-03.30.08:442][774]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1399.458 Y=1557.871 Z=229.682] for [FirstPersonProjectile_C]
+[2017.08.22-03.30.09:573][808]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1302.396 Y=1343.315 Z=249.676] for [FirstPersonProjectile_C]
+[2017.08.22-03.32.59:477][929]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1908.503 Y=1319.807 Z=257.852] for [FirstPersonProjectile_C]
+[2017.08.22-03.32.59:610][933]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1916.892 Y=1314.075 Z=258.367] for [FirstPersonProjectile_C]
+[2017.08.22-03.32.59:938][935]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1915.943 Y=1316.252 Z=255.524] for [FirstPersonProjectile_C]
+[2017.08.22-03.33.02:741][ 19]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1990.121 Y=1305.212 Z=277.195] for [FirstPersonProjectile_C]
+[2017.08.22-03.33.02:873][ 23]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2003.279 Y=1250.831 Z=347.089] for [FirstPersonProjectile_C]
+[2017.08.22-03.33.29:838][836]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=135.547 Y=149.075 Z=315.781] for [FirstPersonProjectile_C]
+[2017.08.22-03.33.30:768][864]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=112.498 Y=163.092 Z=316.031] for [FirstPersonProjectile_C]
+[2017.08.22-03.33.46:979][353]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-69.299 Y=750.394 Z=275.939] for [FirstPersonProjectile_C]
+[2017.08.22-03.34.02:046][805]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-37.376 Y=791.294 Z=246.934] for [FirstPersonProjectile_C]
+[2017.08.22-03.34.19:542][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-03.34.19:607][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.02.01:452][417]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.02.01:482][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.02.01:482][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.02.01:483][417]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:02:01 pm)
+[2017.08.22-04.02.01:483][417]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.02.01:530][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047266s)
+[2017.08.22-04.02.01:537][417]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.02.01:538][417]LogPlayLevel: PIE: World Init took: (0.007341s)
+[2017.08.22-04.02.01:538][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.055483s)
+[2017.08.22-04.02.01:562][417]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.02.01:598][417]LogInit: FAudioDevice initialized.
+[2017.08.22-04.02.01:630][417]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.02.01:636][417]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-13.32.01
+[2017.08.22-04.02.01:637][417]LogWorld: Bringing up level for play took: 0.005622
+[2017.08.22-04.02.01:639][417]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.384
+[2017.08.22-04.02.01:640][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.02.27:170][119]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=955.937 Y=-816.764 Z=263.226] for [FirstPersonProjectile_C]
+[2017.08.22-04.02.27:624][167]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=954.411 Y=-767.916 Z=315.241] for [FirstPersonProjectile_C]
+[2017.08.22-04.02.27:825][189]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1008.505 Y=-756.568 Z=237.359] for [FirstPersonProjectile_C]
+[2017.08.22-04.02.28:022][210]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=954.476 Y=-734.924 Z=178.524] for [FirstPersonProjectile_C]
+[2017.08.22-04.02.28:447][255]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=944.419 Y=-748.045 Z=320.347] for [FirstPersonProjectile_C]
+[2017.08.22-04.02.28:751][287]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=954.681 Y=-714.354 Z=314.882] for [FirstPersonProjectile_C]
+[2017.08.22-04.02.29:027][316]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=960.730 Y=-677.013 Z=241.623] for [FirstPersonProjectile_C]
+[2017.08.22-04.02.33:105][749]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=193.427 Y=-786.652 Z=240.452] for [FirstPersonProjectile_C]
+[2017.08.22-04.02.36:570][121]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=36.011 Y=-832.575 Z=291.068] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.31:403][ 35]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-993.888 Y=664.100 Z=282.132] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.31:577][ 53]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-889.605 Y=646.548 Z=312.282] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.32:272][129]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-884.849 Y=499.804 Z=275.917] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.48:118][798]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1431.287 Y=-1125.101 Z=238.572] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.48:381][826]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1437.021 Y=-1129.315 Z=238.798] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.49:036][895]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1461.083 Y=-1091.682 Z=315.245] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.50:680][ 69]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1401.470 Y=-1076.471 Z=270.392] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.50:961][ 99]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1416.560 Y=-1061.755 Z=274.069] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.51:710][178]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1539.510 Y=-1118.066 Z=286.284] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.52:009][211]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1517.106 Y=-1124.103 Z=266.402] for [FirstPersonProjectile_C]
+[2017.08.22-04.03.52:346][247]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1512.318 Y=-1110.237 Z=316.133] for [FirstPersonProjectile_C]
+[2017.08.22-04.04.16:543][831]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1200.546 Y=-778.891 Z=276.623] for [FirstPersonProjectile_C]
+[2017.08.22-04.04.21:934][398]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=163.733 Y=575.039 Z=304.307] for [FirstPersonProjectile_C]
+[2017.08.22-04.04.49:102][323]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-95.915 Y=-481.769 Z=277.620] for [FirstPersonProjectile_C]
+[2017.08.22-04.04.49:816][399]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-95.941 Y=-481.934 Z=278.100] for [FirstPersonProjectile_C]
+[2017.08.22-04.04.49:973][417]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-98.184 Y=-480.079 Z=282.415] for [FirstPersonProjectile_C]
+[2017.08.22-04.04.58:010][281]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1582.853 Y=-215.810 Z=279.595] for [FirstPersonProjectile_C]
+[2017.08.22-04.04.58:158][297]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1583.262 Y=-218.234 Z=284.403] for [FirstPersonProjectile_C]
+[2017.08.22-04.04.58:337][316]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1589.676 Y=-256.548 Z=285.154] for [FirstPersonProjectile_C]
+[2017.08.22-04.05.00:985][588]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1524.294 Y=404.306 Z=273.368] for [FirstPersonProjectile_C]
+[2017.08.22-04.05.06:568][187]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1475.291 Y=499.582 Z=267.075] for [FirstPersonProjectile_C]
+[2017.08.22-04.05.22:377][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.05.22:419][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.11.17:357][739]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.11.17:376][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.11.17:376][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.11.17:376][739]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:11:17 pm)
+[2017.08.22-04.11.17:377][739]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.11.17:403][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026863s)
+[2017.08.22-04.11.17:405][739]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.11.17:405][739]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2017.08.22-04.11.17:405][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028865s)
+[2017.08.22-04.11.17:423][739]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.11.17:455][739]LogInit: FAudioDevice initialized.
+[2017.08.22-04.11.17:491][739]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.11.17:496][739]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-13.41.17
+[2017.08.22-04.11.17:497][739]LogWorld: Bringing up level for play took: 0.004133
+[2017.08.22-04.11.17:498][739]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.525
+[2017.08.22-04.11.17:498][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.11.48:509][178]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1127.153 Y=331.522 Z=276.721] for [FirstPersonProjectile_C]
+[2017.08.22-04.12.28:929][792]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1459.927 Y=-1215.032 Z=280.385] for [FirstPersonProjectile_C]
+[2017.08.22-04.17.04:594][359]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.17.04:636][359]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.03:750][106]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.08.22-04.26.03:816][106]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [4211.75] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 222 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.22-04.26.04:471][106]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2017.08.22-04.26.04:471][106]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2017.08.22-04.26.04:471][106]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2017.08.22-04.26.04:471][106]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2017.08.22-04.26.04:471][106]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2017.08.22-04.26.04:472][106]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2017.08.22-04.26.04:472][106]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2017.08.22-04.26.04:472][106]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2017.08.22-04.26.04:497][106]LogMaterial: Missing cached shader map for material TargetRed, compiling. 
+[2017.08.22-04.26.04:836][106]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.08.22-04.26.04:974][106]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.08.22-04.26.05:087][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2017.08.22-04.26.05:204][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2017.08.22-04.26.05:205][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2017.08.22-04.26.05:215][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2017.08.22-04.26.05:217][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2017.08.22-04.26.05:220][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2017.08.22-04.26.05:237][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2017.08.22-04.26.05:254][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2017.08.22-04.26.05:258][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2017.08.22-04.26.05:261][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2017.08.22-04.26.05:265][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2017.08.22-04.26.05:269][106]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2017.08.22-04.26.21:842][616]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.26.21:887][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.21:887][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.26.21:887][616]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:26:21 pm)
+[2017.08.22-04.26.21:888][616]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.26.21:926][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038262s)
+[2017.08.22-04.26.21:928][616]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.26.21:929][616]LogPlayLevel: PIE: World Init took: (0.002837s)
+[2017.08.22-04.26.21:930][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.042054s)
+[2017.08.22-04.26.22:154][616]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.26.22:196][616]LogInit: FAudioDevice initialized.
+[2017.08.22-04.26.22:244][616]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.26.22:253][616]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-13.56.22
+[2017.08.22-04.26.22:302][616]LogWorld: Bringing up level for play took: 0.056911
+[2017.08.22-04.26.22:332][616]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.309
+[2017.08.22-04.26.22:333][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.29:184][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.29:342][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.34:741][154]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.22-04.26.36:071][205]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.22-04.26.36:383][218]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (VR_Gun)
+[2017.08.22-04.26.36:578][220]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (VR_Gun)
+[2017.08.22-04.26.40:435][394]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.26.40:468][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.40:468][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.26.40:469][394]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:26:40 pm)
+[2017.08.22-04.26.40:469][394]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.26.40:507][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038191s)
+[2017.08.22-04.26.40:509][394]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.26.40:510][394]LogPlayLevel: PIE: World Init took: (0.002409s)
+[2017.08.22-04.26.40:510][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.041144s)
+[2017.08.22-04.26.40:560][394]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.26.40:601][394]LogInit: FAudioDevice initialized.
+[2017.08.22-04.26.40:646][394]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.26.40:654][394]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-13.56.40
+[2017.08.22-04.26.40:656][394]LogWorld: Bringing up level for play took: 0.008331
+[2017.08.22-04.26.40:659][394]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.636
+[2017.08.22-04.26.40:660][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.42:447][493]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.42:563][493]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.44:213][558]Cmd: SELECT NONE
+[2017.08.22-04.26.48:277][842]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.22-04.26.48:879][884]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.22-04.26.49:067][896]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (VR_Gun)
+[2017.08.22-04.26.52:464][186]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.26.52:483][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.52:483][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.26.52:483][186]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:26:52 pm)
+[2017.08.22-04.26.52:483][186]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.26.52:509][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025528s)
+[2017.08.22-04.26.52:510][186]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.26.52:510][186]LogPlayLevel: PIE: World Init took: (0.001224s)
+[2017.08.22-04.26.52:510][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027148s)
+[2017.08.22-04.26.52:560][186]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.26.52:587][186]LogInit: FAudioDevice initialized.
+[2017.08.22-04.26.52:618][186]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.26.52:621][186]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-13.56.52
+[2017.08.22-04.26.52:622][186]LogWorld: Bringing up level for play took: 0.003721
+[2017.08.22-04.26.52:624][186]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.601
+[2017.08.22-04.26.52:625][186]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.55:880][512]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.26.55:957][512]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.27.00:117][824]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.22-04.27.00:129][824]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (VR_Gun)
+[2017.08.22-04.27.30:081][339]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (FP_Gun)
+[2017.08.22-04.27.31:393][450]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (VR_Gun)
+[2017.08.22-04.27.32:165][513]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (FP_Gun)
+[2017.08.22-04.27.32:692][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.22-04.27.33:679][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.22-04.27.34:233][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.22-04.27.34:709][711]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.22-04.27.44:131][448]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
+[2017.08.22-04.27.45:311][527]LogEditorViewport: Clicking on Actor (context menu): EnemyCharacter_C (EnemyCharacter)
+[2017.08.22-04.28.08:648][154]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.28.08:669][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.28.08:669][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.28.08:669][154]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:28:08 pm)
+[2017.08.22-04.28.08:670][154]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.28.08:694][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024563s)
+[2017.08.22-04.28.08:695][154]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.28.08:696][154]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2017.08.22-04.28.08:696][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026236s)
+[2017.08.22-04.28.08:776][154]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.28.08:807][154]LogInit: FAudioDevice initialized.
+[2017.08.22-04.28.08:838][154]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.28.08:843][154]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-13.58.08
+[2017.08.22-04.28.08:843][154]LogWorld: Bringing up level for play took: 0.003904
+[2017.08.22-04.28.08:846][154]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.823
+[2017.08.22-04.28.08:846][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.28.17:763][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.28.17:846][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.28.32:642][116]Cmd: DELETE
+[2017.08.22-04.28.32:642][116]Cmd: ACTOR DELETE
+[2017.08.22-04.28.32:910][116]LogEditorActor: Deleted Actor: NewBlueprint_C
+[2017.08.22-04.28.32:947][116]LogEditorActor: Deleted 1 Actors (0.304 secs)
+[2017.08.22-04.28.43:528][851]LogSlate: Took 0.023417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-04.28.44:319][851]LogSlate: Took 0.010882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.22-04.28.46:663][851]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 113 classes and 0 folders.
+[2017.08.22-04.28.49:197][851]LogSlate: Took 0.031817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.22-04.28.49:760][852]LogSlate: Took 0.016176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.22-04.28.58:860][270]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-04.29.08:268][706]LogSavePackage: Save=144.70ms
+[2017.08.22-04.29.08:268][706]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap_Auto1A5CF33AE4403ACF9F6724DA163FCF068.tmp' to '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.08.22-04.29.08:270][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.08.22-04.29.08:324][706]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.468
+[2017.08.22-04.29.08:324][706]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.468
+[2017.08.22-04.29.21:169][516]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.29.21:192][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.29.21:193][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.29.21:193][516]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:29:21 pm)
+[2017.08.22-04.29.21:193][516]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.29.21:219][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025510s)
+[2017.08.22-04.29.21:220][516]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.29.21:220][516]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2017.08.22-04.29.21:221][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027344s)
+[2017.08.22-04.29.21:248][516]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.29.21:273][516]LogInit: FAudioDevice initialized.
+[2017.08.22-04.29.21:309][516]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.29.21:313][516]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-13.59.21
+[2017.08.22-04.29.21:313][516]LogWorld: Bringing up level for play took: 0.003580
+[2017.08.22-04.29.21:316][516]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.707
+[2017.08.22-04.29.21:317][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.29.28:756][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.29.28:796][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.30.08:839][984]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
+[2017.08.22-04.30.11:295][164]Cmd: DELETE
+[2017.08.22-04.30.11:295][164]Cmd: ACTOR DELETE
+[2017.08.22-04.30.11:296][164]LogEditorActor: Deleted Actor: EnemyCharacter_C
+[2017.08.22-04.30.11:344][164]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2017.08.22-04.30.34:018][ 85]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.30.34:041][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.30.34:041][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.30.34:041][ 85]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:30:34 pm)
+[2017.08.22-04.30.34:041][ 85]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.30.34:064][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022985s)
+[2017.08.22-04.30.34:065][ 85]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.30.34:066][ 85]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2017.08.22-04.30.34:066][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024874s)
+[2017.08.22-04.30.34:121][ 85]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.30.34:147][ 85]LogInit: FAudioDevice initialized.
+[2017.08.22-04.30.34:178][ 85]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.30.34:182][ 85]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-14.00.34
+[2017.08.22-04.30.34:183][ 85]LogWorld: Bringing up level for play took: 0.003773
+[2017.08.22-04.30.34:186][ 85]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.163
+[2017.08.22-04.30.34:186][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.30.38:590][509]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=258.184 Y=-304.162 Z=294.598] for [FirstPersonProjectile_C]
+[2017.08.22-04.30.42:888][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.30.42:969][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.30.59:104][193]LogRenderer: Reallocating scene render targets to support 964x684 Format 10 NumSamples 1 (Frame:1).
+[2017.08.22-04.32.24:969][557]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
+[2017.08.22-04.32.25:749][617]Cmd: DELETE
+[2017.08.22-04.32.25:749][617]Cmd: ACTOR DELETE
+[2017.08.22-04.32.25:750][617]LogEditorActor: Deleted Actor: EnemyCharacter_C
+[2017.08.22-04.32.25:810][617]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2017.08.22-04.35.17:071][ 87]LogEditorViewport: Clicking on Actor (context menu): EnemyCharacter_C (EnemyCharacter)
+[2017.08.22-04.37.00:219][608]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
+[2017.08.22-04.38.29:321][974]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.38.29:342][974]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.38.29:348][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.38.29:348][974]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:38:29 pm)
+[2017.08.22-04.38.29:349][974]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.38.29:373][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024679s)
+[2017.08.22-04.38.29:376][974]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.38.29:377][974]LogPlayLevel: PIE: World Init took: (0.003268s)
+[2017.08.22-04.38.29:377][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028561s)
+[2017.08.22-04.38.29:466][974]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.38.29:492][974]LogInit: FAudioDevice initialized.
+[2017.08.22-04.38.29:524][974]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.38.29:528][974]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-14.08.29
+[2017.08.22-04.38.29:529][974]LogWorld: Bringing up level for play took: 0.003829
+[2017.08.22-04.38.29:530][974]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.493
+[2017.08.22-04.38.29:530][974]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.38.35:079][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.38.35:218][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.38.38:039][736]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.38.38:055][736]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.38.38:061][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.38.38:061][736]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:38:38 pm)
+[2017.08.22-04.38.38:062][736]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.38.38:083][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021325s)
+[2017.08.22-04.38.38:084][736]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.38.38:084][736]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2017.08.22-04.38.38:085][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023002s)
+[2017.08.22-04.38.38:139][736]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.38.38:169][736]LogInit: FAudioDevice initialized.
+[2017.08.22-04.38.38:203][736]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.38.38:207][736]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-14.08.38
+[2017.08.22-04.38.38:208][736]LogWorld: Bringing up level for play took: 0.003885
+[2017.08.22-04.38.38:209][736]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.186
+[2017.08.22-04.38.38:210][736]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.38.48:748][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.38.48:834][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.39.42:071][798]LogSavePackage: Save=392.49ms
+[2017.08.22-04.39.42:072][798]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap_Auto253865B2C44B529461B4EFD85EA7F597E.tmp' to '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.08.22-04.39.42:075][798]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.08.22-04.39.42:077][798]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.447
+[2017.08.22-04.39.42:077][798]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.447
+[2017.08.22-04.47.40:490][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.22-04.48.03:064][279]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPersonBP/Blueprints/CylinderTarget_Blueprint.
+[2017.08.22-04.49.07:769][858]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.22-04.49.07:801][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.49.07:801][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.49.07:802][858]PIE: New page: PIE session: FirstPersonExampleMap (22 Aug 2017 11:49:07 pm)
+[2017.08.22-04.49.07:802][858]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.22-04.49.07:828][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026060s)
+[2017.08.22-04.49.07:830][858]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.49.07:831][858]LogPlayLevel: PIE: World Init took: (0.002733s)
+[2017.08.22-04.49.07:831][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029313s)
+[2017.08.22-04.49.07:860][858]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.49.07:892][858]LogInit: FAudioDevice initialized.
+[2017.08.22-04.49.07:925][858]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-04.49.07:929][858]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.22-14.19.07
+[2017.08.22-04.49.07:930][858]LogWorld: Bringing up level for play took: 0.004557
+[2017.08.22-04.49.07:932][858]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.091
+[2017.08.22-04.49.07:933][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.49.10:877][158]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.49.10:934][158]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.22-04.49.12:679][303]LogSavePackage: Save=124.76ms
+[2017.08.22-04.49.12:679][303]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap27159C574F16335A7430B5B3A14497B2.tmp' to '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.08.22-04.49.12:693][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.08.22-04.49.14:660][303]LogSavePackage: Save=1748.22ms
+[2017.08.22-04.49.14:661][303]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap_BuiltData01B38F74443E94CC3F2FBF8C03811055.tmp' to '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.08.22-04.49.14:668][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
