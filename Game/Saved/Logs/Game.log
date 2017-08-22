@@ -109,6 +109,7 @@ LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 <<<<<<< HEAD
+<<<<<<< HEAD
 [2017.08.22-03.15.58:863][  0]LogInit: Selected Device Profile: [Windows]
 [2017.08.22-03.15.58:863][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.08.22-03.15.58:969][  0]LogInit: Computer: ALAN
@@ -1597,6 +1598,8 @@ LogInit: Object subsystem initialized
 [2017.08.22-05.24.22:767][ 74]LogExit: Exiting.
 [2017.08.22-05.24.22:792][ 74]Log file closed, 08/22/17 14:54:22
 =======
+=======
+>>>>>>> d2b6eff9d99cba5b53f5a288ec381a3acb51a546
 [2017.08.22-05.21.47:381][  0]LogInit: Selected Device Profile: [Windows]
 [2017.08.22-05.21.47:382][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.08.22-05.21.47:401][  0]LogInit: Computer: LAPTOP-AF12EHKO
@@ -2036,4 +2039,7 @@ LogInit: Object subsystem initialized
 [2017.08.22-05.22.17:621][307]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.08.22-05.22.17:624][307]LogExit: Exiting.
 [2017.08.22-05.22.17:660][307]Log file closed, 08/22/17 14:52:17
+<<<<<<< HEAD
+>>>>>>> d2b6eff9d99cba5b53f5a288ec381a3acb51a546
+=======
 >>>>>>> d2b6eff9d99cba5b53f5a288ec381a3acb51a546
