@@ -11,3 +11,7 @@
 4. Commit to master (save changes locally)
 
 5. Push to master (save changes remotely)
+
+## Make sure you push and pull regularly!!
+
+## Using Unreal Engine 4.17.17
