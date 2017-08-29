@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 ﻿Log file open, 08/29/17 12:20:12
+=======
+﻿Log file open, 08/29/17 12:44:41
+>>>>>>> 404c200e96132c6a7eb16c9f1831cfb2691fd5bd
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: Game
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(-1755406263) SRandInit(-1755406262).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.300466
+=======
+LogInit: Display: RandInit(1890862919) SRandInit(1890862919).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.224252
+>>>>>>> 404c200e96132c6a7eb16c9f1831cfb2691fd5bd
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -103,11 +113,12 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2017.08.29-02.50.15:193][  0]LogInit: Selected Device Profile: [Windows]
 [2017.08.29-02.50.15:193][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.08.29-02.50.15:287][  0]LogInit: Computer: LAPTOP-AF12EHKO
@@ -1082,3 +1093,203 @@ LogInit: Object subsystem initialized
 [2017.08.29-03.37.45:901][ 65]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.08.29-03.37.45:904][ 65]LogExit: Exiting.
 [2017.08.29-03.37.45:937][ 65]Log file closed, 08/29/17 13:07:45
+=======
+[2017.08.29-03.14.42:251][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-03.14.42:251][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.29-03.14.42:283][  0]LogInit: Computer: ALAN
+[2017.08.29-03.14.42:283][  0]LogInit: User: lak132
+[2017.08.29-03.14.42:283][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.29-03.14.42:283][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.08.29-03.14.42:284][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.29-03.14.42:284][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.29-03.14.42:284][  0]LogMemory: Process Physical Memory: 277.80 MB used, 277.80 MB peak
+[2017.08.29-03.14.42:284][  0]LogMemory: Process Virtual Memory: 274.60 MB used, 274.60 MB peak
+[2017.08.29-03.14.42:284][  0]LogMemory: Physical Memory: 5963.59 MB used,  2136.23 MB free, 8099.82 MB total
+[2017.08.29-03.14.42:284][  0]LogMemory: Virtual Memory: 670.29 MB used,  2136.23 MB free, 134217728.00 MB total
+[2017.08.29-03.14.42:442][  0]LogInit: Using OS detected language (en-US).
+[2017.08.29-03.14.42:442][  0]LogInit: Using OS detected locale (en-AU).
+[2017.08.29-03.14.42:444][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.29-03.14.43:241][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.29-03.14.43:306][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.08.29-03.14.43:306][  0]LogD3D11RHI:       4065/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.29-03.14.43:315][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.08.29-03.14.43:315][  0]LogD3D11RHI:       128/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.29-03.14.43:317][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.29-03.14.43:317][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.29-03.14.43:317][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.29-03.14.43:324][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.29-03.14.43:324][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.08.29-03.14.43:324][  0]LogWindows: EnumDisplayDevices:
+[2017.08.29-03.14.43:324][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.08.29-03.14.43:324][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.29-03.14.43:324][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.29-03.14.43:324][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.29-03.14.43:324][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.08.29-03.14.43:324][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.29-03.14.43:324][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.29-03.14.43:325][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.29-03.14.43:347][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.29-03.14.43:361][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.29-03.14.43:362][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Intermediate/Shaders/WorkingDirectory/16808/).
+[2017.08.29-03.14.43:362][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lak132/AppData/Local/Temp/UnrealShaderWorkingDir/4448EC8A4194BF75C1ADF29A648ED0D4/'.
+[2017.08.29-03.14.43:362][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.29-03.14.44:381][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.29-03.14.44:421][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.29-03.14.44:463][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.29-03.14.44:503][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.29-03.14.44:544][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.29-03.14.44:586][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.29-03.14.44:626][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.29-03.14.44:681][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.29-03.14.44:717][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.29-03.14.44:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.29-03.14.44:807][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.29-03.14.44:857][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.29-03.14.44:914][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.29-03.14.44:959][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.29-03.14.45:005][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.29-03.14.45:091][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.29-03.14.45:091][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.29-03.14.45:118][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.29-03.14.45:200][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.29-03.14.45:224][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.29-03.14.45:263][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.29-03.14.45:311][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.29-03.14.45:350][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.29-03.14.45:391][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.29-03.14.45:391][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.29-03.14.45:740][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.29-03.14.45:876][  0]LogDerivedDataCache: Loaded boot cache 0.14s 93MB C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.29-03.14.45:876][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.29-03.14.45:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.29-03.14.45:877][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.29-03.14.45:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.29-03.14.45:877][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.29-03.14.45:907][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.29-03.14.45:919][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lak132/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.29-03.14.45:935][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.29-03.14.45:936][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.29-03.14.45:937][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-03.14.45:937][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-03.14.46:223][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.08.29-03.14.46:346][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-03.14.46:526][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.29-03.14.46:841][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.29-03.14.46:870][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.29-03.14.46:870][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.29-03.14.46:870][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.29-03.14.46:870][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.29-03.14.46:870][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.29-03.14.47:314][  0]LogNetVersion: Game , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2957514414)
+[2017.08.29-03.14.47:583][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.075789 seconds
+[2017.08.29-03.14.47:590][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.29-03.14.47:590][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.29-03.14.47:590][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.29-03.14.47:638][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.29-03.14.50:363][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.29-03.14.50:399][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.29-03.14.50:992][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.29-03.14.51:399][  0]SourceControl: Source control is disabled
+[2017.08.29-03.14.51:400][  0]SourceControl: Source control is disabled
+[2017.08.29-03.14.51:444][  0]SourceControl: Source control is disabled
+[2017.08.29-03.14.51:492][  0]SourceControl: Source control is disabled
+[2017.08.29-03.14.51:972][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.29-03.14.52:221][  0]LogOcInput: OculusInput pre-init called
+[2017.08.29-03.14.52:470][  0]LogEngine: Initializing Engine...
+[2017.08.29-03.14.52:472][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.29-03.14.52:802][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.29-03.14.52:802][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.29-03.14.53:149][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.29-03.14.53:165][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-03.14.53:204][  0]LogInit: FAudioDevice initialized.
+[2017.08.29-03.14.53:337][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.29-03.14.53:368][  0]LogInit: Texture streaming: Enabled
+[2017.08.29-03.14.53:560][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.29-03.14.53:938][  0]LogInit: Transaction tracking system initialized
+[2017.08.29-03.14.54:365][  0]BlueprintLog: New page: Editor Load
+[2017.08.29-03.14.55:235][  0]LocalizationService: Localization service is disabled
+[2017.08.29-03.14.55:777][  0]LogConsoleResponse: Display: 
+[2017.08.29-03.14.56:131][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.29-03.14.56:131][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.29-03.14.56:131][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.29-03.14.56:568][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/' took 0.02s
+[2017.08.29-03.14.57:009][  0]SourceControl: Source control is disabled
+[2017.08.29-03.14.57:010][  0]Cmd: MAP LOAD FILE="../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.29-03.14.57:010][  0]LightingResults: New page: Lighting Build
+[2017.08.29-03.14.57:056][  0]MapCheck: New page: Map Check
+[2017.08.29-03.14.57:056][  0]LightingResults: New page: Lighting Build
+[2017.08.29-03.15.00:897][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.08.29-03.15.00:966][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0020.70] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 205 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.29-03.15.03:616][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.08.29-03.15.03:616][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 128X64)
+[2017.08.29-03.15.03:616][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2017.08.29-03.15.03:616][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.08.29-03.15.03:616][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.08.29-03.15.03:616][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2017.08.29-03.15.03:616][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 32X32)
+[2017.08.29-03.15.04:647][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.29-03.15.05:446][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.29-03.15.05:534][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.29-03.15.05:588][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.559ms to complete.
+[2017.08.29-03.15.05:588][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.579
+[2017.08.29-03.15.07:076][  0]LogCollectionManager: Loaded 0 collections in 0.000984 seconds
+[2017.08.29-03.15.07:439][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/Collections/' took 0.01s
+[2017.08.29-03.15.07:439][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/Developers/lak132/Collections/' took 0.01s
+[2017.08.29-03.15.07:439][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/Collections/' took 0.01s
+[2017.08.29-03.15.07:439][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.29-03.15.07:466][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2386 classes and 500 folders.
+[2017.08.29-03.15.07:630][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.08.29-03.15.08:999][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.08.29-03.15.09:162][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.08.29-03.15.09:811][  0]LogSlate: Took 0.000716 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-03.15.09:816][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.29-03.15.09:913][  0]LogSlate: Took 0.019040 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.29-03.15.10:720][  0]LogRenderer: Reallocating scene render targets to support 888x436 Format 10 NumSamples 1 (Frame:1).
+[2017.08.29-03.15.12:442][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.08.29-03.15.12:442][  0]LogLoad: (Engine Initialization) Total time: 32.18 seconds
+[2017.08.29-03.15.12:442][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.29-03.15.12:443][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.29-03.15.12:443][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.29-03.15.12:529][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.29-03.15.12:785][  0]LogSlate: Took 0.010588 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-03.15.19:279][347]LogAssetRegistry: Asset discovery search completed in 33.0779 seconds
+[2017.08.29-03.15.19:281][347]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.29-03.15.19:281][347]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2017.08.29-03.15.48:547][ 88]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube10)
+[2017.08.29-03.15.52:266][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map)
+[2017.08.29-03.15.53:749][297]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.08.29-03.16.36:203][731]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-03.17.25:845][159]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.08.29-03.17.27:019][159]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-03.17.28:739][209]LogRenderer: Reallocating scene render targets to support 912x684 Format 10 NumSamples 1 (Frame:48).
+[2017.08.29-03.17.41:502][958]LogSlate: Took 0.048325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.29-03.18.11:454][707]BlueprintLog: New page: Compile LightA
+[2017.08.29-03.18.25:499][471]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.08.29-03.18.26:620][535]Cmd: DELETE
+[2017.08.29-03.18.26:620][535]Cmd: ACTOR DELETE
+[2017.08.29-03.18.26:799][535]LogEditorActor: Deleted Actor: PointLight
+[2017.08.29-03.18.26:821][535]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.08.29-03.18.28:160][615]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Map)
+[2017.08.29-03.18.30:288][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map)
+[2017.08.29-03.18.30:747][756]LogEditorViewport: Clicking on Actor (LMB): LightA_C (LightA)
+[2017.08.29-03.19.14:100][315]BlueprintLog: New page: Compile LightA
+[2017.08.29-03.19.23:873][877]BlueprintLog: New page: Compile LightA
+[2017.08.29-03.20.36:353][146]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.08.29-03.20.37:477][211]Cmd: DELETE
+[2017.08.29-03.20.37:477][211]Cmd: ACTOR DELETE
+[2017.08.29-03.20.37:478][211]LogEditorActor: Deleted Actor: PointLight
+[2017.08.29-03.20.37:508][211]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2017.08.29-03.20.41:702][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map)
+[2017.08.29-03.20.42:335][488]LogEditorViewport: Clicking on Actor (LMB): LightA_C (LightA)
+[2017.08.29-03.21.07:412][959]LogEditorViewport: Clicking on Actor (LMB): LightA_C (LightA)
+[2017.08.29-03.21.27:277][130]BlueprintLog: New page: Compile LightA
+[2017.08.29-03.21.37:380][702]BlueprintLog: New page: Compile LightA
+[2017.08.29-03.21.48:940][360]LogEditorViewport: Clicking on Actor (LMB): LightA_C (LightA2)
+[2017.08.29-03.25.15:081][383]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.29-03.28.59:272][397]LogSavePackage: Save=249.90ms
+[2017.08.29-03.28.59:272][397]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap36C65B0240F22382F81178A457745099.tmp' to '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.08.29-03.28.59:286][397]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.08.29-03.28.59:390][397]LogSavePackage: Save=38.59ms
+[2017.08.29-03.28.59:390][397]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap_BuiltDataCAE3D1B642F33DBA442EC49EEEF9AF8B.tmp' to '../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.08.29-03.28.59:392][397]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (CGD)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+>>>>>>> 404c200e96132c6a7eb16c9f1831cfb2691fd5bd
