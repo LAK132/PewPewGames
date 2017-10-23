@@ -1,0 +1,655 @@
+﻿Log file open, 10/23/17 18:15:50
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(178188071) SRandInit(178188071).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.169184
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.23-07.45.51:357][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.23-07.45.51:357][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.23-07.45.51:408][  0]LogInit: Computer: ALAN
+[2017.10.23-07.45.51:408][  0]LogInit: User: lak132
+[2017.10.23-07.45.51:408][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.23-07.45.51:408][  0]LogInit: High frequency timer resolution =2.531245 MHz
+[2017.10.23-07.45.51:408][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.23-07.45.51:408][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.23-07.45.51:408][  0]LogMemory: Process Physical Memory: 280.49 MB used, 280.49 MB peak
+[2017.10.23-07.45.51:408][  0]LogMemory: Process Virtual Memory: 276.50 MB used, 276.50 MB peak
+[2017.10.23-07.45.51:408][  0]LogMemory: Physical Memory: 6885.43 MB used,  1214.40 MB free, 8099.82 MB total
+[2017.10.23-07.45.51:408][  0]LogMemory: Virtual Memory: 672.35 MB used,  1214.40 MB free, 134217728.00 MB total
+[2017.10.23-07.45.51:574][  0]LogInit: Using OS detected language (en-US).
+[2017.10.23-07.45.51:574][  0]LogInit: Using OS detected locale (en-AU).
+[2017.10.23-07.45.51:577][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.23-07.45.52:345][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.23-07.45.52:381][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.10.23-07.45.52:381][  0]LogD3D11RHI:       4065/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.23-07.45.52:388][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.10.23-07.45.52:388][  0]LogD3D11RHI:       128/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.23-07.45.52:389][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.23-07.45.52:389][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.23-07.45.52:389][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.23-07.45.52:397][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.23-07.45.52:397][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.10.23-07.45.52:397][  0]LogWindows: EnumDisplayDevices:
+[2017.10.23-07.45.52:397][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.10.23-07.45.52:397][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.23-07.45.52:397][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.23-07.45.52:397][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.23-07.45.52:397][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.10.23-07.45.52:397][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.23-07.45.52:397][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.23-07.45.52:397][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.23-07.45.52:419][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.23-07.45.52:431][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.23-07.45.52:432][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Intermediate/Shaders/WorkingDirectory/13084/).
+[2017.10.23-07.45.52:433][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lak132/AppData/Local/Temp/UnrealShaderWorkingDir/D1E50E324C7547C8C44F74BF7E4D8484/'.
+[2017.10.23-07.45.52:433][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.23-07.45.53:448][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.23-07.45.53:505][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.23-07.45.53:559][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.23-07.45.53:616][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.23-07.45.53:660][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.23-07.45.53:706][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.23-07.45.53:747][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.23-07.45.53:790][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.23-07.45.53:846][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.23-07.45.53:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.23-07.45.53:941][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.23-07.45.53:987][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.23-07.45.54:028][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.23-07.45.54:070][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.23-07.45.54:111][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.23-07.45.54:197][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.23-07.45.54:197][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.23-07.45.54:227][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.23-07.45.54:309][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.23-07.45.54:334][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.23-07.45.54:374][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.23-07.45.54:417][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.23-07.45.54:458][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.23-07.45.54:510][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.23-07.45.54:510][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.23-07.45.54:915][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.23-07.45.55:075][  0]LogDerivedDataCache: Loaded boot cache 0.16s 93MB C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.23-07.45.55:075][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.23-07.45.55:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.23-07.45.55:076][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.23-07.45.55:076][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.23-07.45.55:076][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.23-07.45.55:097][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.23-07.45.55:110][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lak132/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.23-07.45.55:121][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.23-07.45.55:122][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.23-07.45.55:123][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.23-07.45.55:123][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.23-07.45.55:406][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.10.23-07.45.55:566][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.23-07.45.55:742][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.23-07.45.56:015][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.23-07.45.56:051][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.23-07.45.56:051][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.23-07.45.56:051][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.23-07.45.56:051][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.23-07.45.56:051][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.23-07.45.56:719][  0]LogNetVersion: Game , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2957514414)
+[2017.10.23-07.45.57:048][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.126124 seconds
+[2017.10.23-07.45.57:056][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.23-07.45.57:056][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.23-07.45.57:056][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.23-07.45.57:119][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.23-07.45.59:763][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.23-07.45.59:793][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.23-07.46.00:320][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.23-07.46.00:651][  0]SourceControl: Source control is disabled
+[2017.10.23-07.46.00:651][  0]SourceControl: Source control is disabled
+[2017.10.23-07.46.00:692][  0]SourceControl: Source control is disabled
+[2017.10.23-07.46.00:731][  0]SourceControl: Source control is disabled
+[2017.10.23-07.46.01:161][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.23-07.46.01:341][  0]LogOcInput: OculusInput pre-init called
+[2017.10.23-07.46.02:888][  0]LogEngine: Initializing Engine...
+[2017.10.23-07.46.02:891][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.23-07.46.03:187][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.23-07.46.03:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.23-07.46.05:294][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.23-07.46.05:304][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.23-07.46.05:336][  0]LogInit: FAudioDevice initialized.
+[2017.10.23-07.46.05:444][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.23-07.46.05:463][  0]LogInit: Texture streaming: Enabled
+[2017.10.23-07.46.05:556][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.23-07.46.06:281][  0]LogInit: Transaction tracking system initialized
+[2017.10.23-07.46.06:523][  0]BlueprintLog: New page: Editor Load
+[2017.10.23-07.46.10:521][  0]LocalizationService: Localization service is disabled
+[2017.10.23-07.46.11:282][  0]LogConsoleResponse: Display: 
+[2017.10.23-07.46.11:614][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.23-07.46.11:614][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.23-07.46.11:614][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.23-07.46.12:428][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/' took 0.12s
+[2017.10.23-07.46.12:468][  0]SourceControl: Source control is disabled
+[2017.10.23-07.46.12:468][  0]LightingResults: New page: Lighting Build
+[2017.10.23-07.46.12:506][  0]MapCheck: New page: Map Check
+[2017.10.23-07.46.12:506][  0]LightingResults: New page: Lighting Build
+[2017.10.23-07.46.16:325][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.10.23-07.46.16:339][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0027.39] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 70 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.10.23-07.46.20:564][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.23-07.46.21:123][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.23-07.46.21:186][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.23-07.46.21:243][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.733ms to complete.
+[2017.10.23-07.46.21:243][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.775
+[2017.10.23-07.46.22:102][  0]LogCollectionManager: Loaded 0 collections in 0.000915 seconds
+[2017.10.23-07.46.22:224][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Collections/' took 0.01s
+[2017.10.23-07.46.22:224][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/Developers/lak132/Collections/' took 0.01s
+[2017.10.23-07.46.22:224][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/Collections/' took 0.01s
+[2017.10.23-07.46.22:224][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.23-07.46.22:235][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2386 classes and 500 folders.
+[2017.10.23-07.46.22:369][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.23-07.46.23:355][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.10.23-07.46.23:479][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.23-07.46.24:446][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.23-07.46.24:454][  0]LogSlate: Took 0.000689 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.23-07.46.24:517][  0]LogSlate: Took 0.018838 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.23-07.46.25:142][  0]LogRenderer: Reallocating scene render targets to support 816x436 Format 10 NumSamples 1 (Frame:1).
+[2017.10.23-07.46.26:054][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.10.23-07.46.26:054][  0]LogLoad: (Engine Initialization) Total time: 37.11 seconds
+[2017.10.23-07.46.26:054][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.23-07.46.26:054][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.23-07.46.26:054][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.23-07.46.26:528][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.23-07.46.26:789][  0]LogSlate: Took 0.019136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.23-07.46.27:611][  3]LogAssetRegistry: Asset discovery search completed in 32.2265 seconds
+[2017.10.23-07.46.27:613][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.23-07.46.27:613][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2017.10.23-07.46.27:770][  3]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.23-07.46.31:869][167]LogFileCache: Retrieving MD5 hashes for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/' took 5.40s
+[2017.10.23-07.46.44:637][777]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.23-07.46.44:739][777]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/Door.fbx)
+[2017.10.23-07.46.44:857][777]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.23-07.46.44:857][777]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.10.23-07.46.44:857][777]LogFbx: ItemName: Geometry, ItemCount : 8
+[2017.10.23-07.46.44:857][777]LogFbx: ItemName: Model, ItemCount : 10
+[2017.10.23-07.46.44:857][777]LogFbx: ItemName: Material, ItemCount : 13
+[2017.10.23-07.46.44:865][777]LogFbx: Loading FBX Scene from ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/Door.fbx
+[2017.10.23-07.46.44:918][777]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-07.46.46:691][777]LogFbx: Loading FBX Scene from ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/Door.fbx
+[2017.10.23-07.46.46:705][777]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-07.46.46:746][777]LogFbx: Warning: Triangulating static mesh Door
+[2017.10.23-07.46.46:839][777]LogStaticMesh: Building static mesh Door_Door...
+[2017.10.23-07.46.46:882][777]LogStaticMesh: Built static mesh [0.04s] /Game/PPGContent/Doors/Door_Door.Door_Door
+[2017.10.23-07.46.46:979][777]LogFbx: Warning: Triangulating static mesh DoorWay
+[2017.10.23-07.46.46:983][777]LogStaticMesh: Building static mesh Door_DoorWay...
+[2017.10.23-07.46.46:988][777]LogStaticMesh: Built static mesh [0.01s] /Game/PPGContent/Doors/Door_DoorWay.Door_DoorWay
+[2017.10.23-07.46.47:001][777]LogFbx: Warning: Triangulating static mesh CobrollaMirror
+[2017.10.23-07.46.47:073][777]LogStaticMesh: Building static mesh Door_CobrollaMirror...
+[2017.10.23-07.46.47:117][777]LogStaticMesh: Built static mesh [0.04s] /Game/PPGContent/Doors/Door_CobrollaMirror.Door_CobrollaMirror
+[2017.10.23-07.46.47:133][777]LogFbx: Warning: Triangulating static mesh Cobrolla
+[2017.10.23-07.46.47:189][777]LogStaticMesh: Building static mesh Door_Cobrolla...
+[2017.10.23-07.46.47:215][777]LogStaticMesh: Built static mesh [0.03s] /Game/PPGContent/Doors/Door_Cobrolla.Door_Cobrolla
+[2017.10.23-07.46.47:231][777]LogFbx: Warning: Triangulating static mesh Table
+[2017.10.23-07.46.47:237][777]LogStaticMesh: Building static mesh Door_Table...
+[2017.10.23-07.46.47:241][777]LogStaticMesh: Built static mesh [0.01s] /Game/PPGContent/Doors/Door_Table.Door_Table
+[2017.10.23-07.46.47:251][777]LogFbx: Warning: Triangulating static mesh CargoContainer
+[2017.10.23-07.46.47:307][777]LogStaticMesh: Building static mesh Door_CargoContainer...
+[2017.10.23-07.46.47:350][777]LogStaticMesh: Built static mesh [0.04s] /Game/PPGContent/Doors/Door_CargoContainer.Door_CargoContainer
+[2017.10.23-07.46.47:367][777]LogFbx: Warning: Triangulating static mesh Gun
+[2017.10.23-07.46.47:393][777]LogStaticMesh: Building static mesh Door_Gun...
+[2017.10.23-07.46.47:395][777]LogStaticMesh: Built static mesh [0.00s] /Game/PPGContent/Doors/Door_Gun.Door_Gun
+[2017.10.23-07.46.47:396][777]LogStaticMesh: Warning: Door_Gun has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.10.23-07.46.47:407][777]LogFbx: Warning: Triangulating static mesh Map
+[2017.10.23-07.46.47:516][777]LogStaticMesh: Building static mesh Door_Map...
+[2017.10.23-07.46.47:557][777]LogStaticMesh: Built static mesh [0.04s] /Game/PPGContent/Doors/Door_Map.Door_Map
+[2017.10.23-07.46.47:558][777]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.23-07.46.47:616][777]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.23-07.46.47:616][777]FBXImport: Warning: Door_Gun has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.10.23-07.47.28:884][722]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/Door.fbx)
+[2017.10.23-07.47.28:889][722]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.23-07.47.28:889][722]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.23-07.47.28:889][722]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.23-07.47.28:889][722]LogFbx: ItemName: Material, ItemCount : 3
+[2017.10.23-07.47.28:894][722]LogFbx: Loading FBX Scene from ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/Door.fbx
+[2017.10.23-07.47.28:901][722]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-07.47.31:065][722]LogFbx: Loading FBX Scene from ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/Door.fbx
+[2017.10.23-07.47.31:073][722]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-07.47.31:074][722]LogFbx: Warning: Triangulating static mesh Door
+[2017.10.23-07.47.31:084][722]LogStaticMesh: Building static mesh Door...
+[2017.10.23-07.47.31:090][722]LogStaticMesh: Built static mesh [0.01s] /Game/PPGContent/Doors/Door.Door
+[2017.10.23-07.47.31:113][722]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.23-07.47.37:893][843]LogActorFactory: Actor Factory created Door
+[2017.10.23-07.47.39:273][919]LogActorFactory: Actor Factory created Door
+[2017.10.23-07.47.39:996][957]LogActorFactory: Actor Factory created Door
+[2017.10.23-07.47.45:565][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorWay)
+[2017.10.23-07.48.27:368][562]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door)
+[2017.10.23-07.48.28:693][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door)
+[2017.10.23-07.48.32:717][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorWay)
+[2017.10.23-07.48.34:025][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door)
+[2017.10.23-07.48.57:310][206]LogActorFactory: Actor Factory created Door
+[2017.10.23-07.48.59:633][341]LogActorFactory: Actor Factory created Door
+[2017.10.23-07.49.09:368][895]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.23-07.49.09:664][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.49.09:682][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.23-07.49.09:769][895]PIE: New page: PIE session: FirstPersonExampleMap (24 Oct 2017 4:49:09 am)
+[2017.10.23-07.49.09:795][895]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.23-07.49.09:873][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078076s)
+[2017.10.23-07.49.09:875][895]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.23-07.49.09:875][895]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2017.10.23-07.49.09:886][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.091082s)
+[2017.10.23-07.49.09:918][895]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.23-07.49.09:946][895]LogInit: FAudioDevice initialized.
+[2017.10.23-07.49.10:022][895]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.23-07.49.10:134][895]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.10.23-18.19.10
+[2017.10.23-07.49.10:224][895]LogWorld: Bringing up level for play took: 0.108275
+[2017.10.23-07.49.10:340][895]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.10.23-07.49.10:497][895]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.362
+[2017.10.23-07.49.10:498][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.49.30:724][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.49.30:811][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.50.10:077][423]LogEditorFactories: Performing atomic reimport of [D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/Door.fbx]
+[2017.10.23-07.50.10:146][423]LogFbx: Loading FBX Scene from D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/Door.fbx
+[2017.10.23-07.50.10:155][423]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-07.50.10:160][423]LogFbx: Warning: Triangulating static mesh Door
+[2017.10.23-07.50.10:218][423]LogStaticMesh: Building static mesh Door...
+[2017.10.23-07.50.10:223][423]LogStaticMesh: Built static mesh [0.01s] /Game/PPGContent/Doors/Door.Door
+[2017.10.23-07.50.10:236][423]LogEditorFactories: -- imported successfully
+[2017.10.23-07.50.10:239][423]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.23-07.50.12:343][534]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.23-07.50.12:395][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.50.12:395][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.23-07.50.12:396][534]PIE: New page: PIE session: FirstPersonExampleMap (24 Oct 2017 4:50:12 am)
+[2017.10.23-07.50.12:396][534]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.23-07.50.12:424][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028441s)
+[2017.10.23-07.50.12:425][534]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.23-07.50.12:425][534]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2017.10.23-07.50.12:425][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030076s)
+[2017.10.23-07.50.12:445][534]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.23-07.50.12:473][534]LogInit: FAudioDevice initialized.
+[2017.10.23-07.50.12:512][534]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.23-07.50.12:517][534]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.10.23-18.20.12
+[2017.10.23-07.50.12:519][534]LogWorld: Bringing up level for play took: 0.006206
+[2017.10.23-07.50.12:521][534]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.387
+[2017.10.23-07.50.12:522][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.50.21:286][ 56]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.50.21:340][ 56]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.50.24:605][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door2)
+[2017.10.23-07.50.29:267][520]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door)
+[2017.10.23-07.50.29:961][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door)
+[2017.10.23-07.50.32:821][716]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.23-07.50.32:871][716]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.50.32:871][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.23-07.50.32:872][716]PIE: New page: PIE session: FirstPersonExampleMap (24 Oct 2017 4:50:32 am)
+[2017.10.23-07.50.32:872][716]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.23-07.50.32:900][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028357s)
+[2017.10.23-07.50.32:902][716]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.23-07.50.32:902][716]LogPlayLevel: PIE: World Init took: (0.001921s)
+[2017.10.23-07.50.32:902][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030792s)
+[2017.10.23-07.50.32:922][716]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.23-07.50.32:951][716]LogInit: FAudioDevice initialized.
+[2017.10.23-07.50.32:988][716]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.23-07.50.32:993][716]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.10.23-18.20.32
+[2017.10.23-07.50.32:994][716]LogWorld: Bringing up level for play took: 0.005451
+[2017.10.23-07.50.32:996][716]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.861
+[2017.10.23-07.50.32:996][716]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.50.43:268][330]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.50.43:322][330]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.51.03:140][638]LogEditorFactories: Performing atomic reimport of [D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/DoorWay.fbx]
+[2017.10.23-07.51.03:204][638]LogFbx: Loading FBX Scene from D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Finalised/DoorWay.fbx
+[2017.10.23-07.51.03:211][638]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-07.51.03:217][638]LogFbx: Warning: Triangulating static mesh DoorWay
+[2017.10.23-07.51.03:253][638]LogStaticMesh: Building static mesh DoorWay...
+[2017.10.23-07.51.03:258][638]LogStaticMesh: Built static mesh [0.01s] /Game/PPGContent/Doors/DoorWay.DoorWay
+[2017.10.23-07.51.03:269][638]LogEditorFactories: -- imported successfully
+[2017.10.23-07.51.03:272][638]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.23-07.51.05:118][723]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.23-07.51.05:196][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.51.05:196][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.23-07.51.05:196][723]PIE: New page: PIE session: FirstPersonExampleMap (24 Oct 2017 4:51:05 am)
+[2017.10.23-07.51.05:196][723]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.23-07.51.05:246][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050213s)
+[2017.10.23-07.51.05:247][723]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.23-07.51.05:247][723]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.10.23-07.51.05:248][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051608s)
+[2017.10.23-07.51.05:274][723]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.23-07.51.05:303][723]LogInit: FAudioDevice initialized.
+[2017.10.23-07.51.05:337][723]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.23-07.51.05:343][723]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.10.23-18.21.05
+[2017.10.23-07.51.05:344][723]LogWorld: Bringing up level for play took: 0.006829
+[2017.10.23-07.51.05:347][723]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.789
+[2017.10.23-07.51.05:347][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.51.15:866][350]LogScript: Warning: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:059E
+[2017.10.23-07.51.15:867][350]PIE: Error: Blueprint Runtime Error: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: DestroyActor in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+[2017.10.23-07.51.30:647][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.51.30:704][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.23-07.53.03:238][685]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.10.23-07.53.04:758][685]LogSlate: Took 0.017042 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.23-07.53.05:148][686]LogSlate: Took 0.016296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.23-07.53.21:142][563]LogRenderer: Reallocating scene render targets to support 912x540 Format 10 NumSamples 1 (Frame:1).
+[2017.10.23-07.56.00:117][387]LogMetaData: Removing '/Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/PPGContent/Doors/SlidingDoor.PackageMetaData'
+[2017.10.23-07.56.00:117][387]LogMetaData: Removing '/Game/PPGContent/Doors/SlidingDoorWay.SKEL_SlidingDoorWay_C' ref from Metadata '/Game/PPGContent/Doors/SlidingDoor.PackageMetaData'
+[2017.10.23-07.56.00:117][387]LogMetaData: Removing '/Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C' ref from Metadata '/Game/PPGContent/Doors/SlidingDoor.PackageMetaData'
+[2017.10.23-07.56.00:117][387]LogMetaData: Removing '/Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay:EventGraph.K2Node_Event_0' ref from Metadata '/Game/PPGContent/Doors/SlidingDoor.PackageMetaData'
+[2017.10.23-07.56.00:117][387]LogMetaData: Removing '/Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay:EventGraph.K2Node_Event_1' ref from Metadata '/Game/PPGContent/Doors/SlidingDoor.PackageMetaData'
+[2017.10.23-07.56.00:117][387]LogMetaData: Removing '/Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay:EventGraph.K2Node_Event_2' ref from Metadata '/Game/PPGContent/Doors/SlidingDoor.PackageMetaData'
+[2017.10.23-07.56.00:304][387]LogSavePackage: Save=83.33ms
+[2017.10.23-07.56.00:304][387]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/SlidingDoorWay97EEA1674E13AABE5615739099612094.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/PPGContent/Doors/SlidingDoorWay.uasset'
+[2017.10.23-07.56.00:309][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/PPGContent/Doors/SlidingDoorWay.uasset
+[2017.10.23-07.56.36:133][220]LogSavePackage: Save=22.31ms
+[2017.10.23-07.56.36:133][220]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/SlidingDoor2B081BDF48AE69EC5AA6238F15ED87F9.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/PPGContent/Doors/SlidingDoor.uasset'
+[2017.10.23-07.56.36:135][220]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/PPGContent/Doors/SlidingDoor.uasset
+[2017.10.23-07.57.26:560][155]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.23-07.58.05:173][405]BlueprintLog: New page: Compile SlidingDoorWay
+[2017.10.23-07.58.08:507][575]LogSavePackage: Save=25.19ms
+[2017.10.23-07.58.08:507][575]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/SlidingDoorWayCA27517F4F94B02D50C7AD83563100C3.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/PPGContent/Doors/SlidingDoorWay.uasset'
+[2017.10.23-07.58.08:509][575]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/PPGContent/Doors/SlidingDoorWay.uasset
+[2017.10.23-07.58.10:257][680]BlueprintLog: New page: Compile SlidingDoor
+[2017.10.23-07.58.11:001][680]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-07.58.11:001][680]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-07.58.11:003][680]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_685.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-07.58.11:003][680]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_684.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-07.58.11:711][714]LogSavePackage: Save=22.14ms
+[2017.10.23-07.58.11:711][714]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/SlidingDoor0DAEC3B54E9E307AA05F3D98075F3521.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/PPGContent/Doors/SlidingDoor.uasset'
+[2017.10.23-07.58.11:712][714]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/PPGContent/Doors/SlidingDoor.uasset
+[2017.10.23-07.58.27:643][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door)
+[2017.10.23-07.58.28:594][688]Cmd: DELETE
+[2017.10.23-07.58.28:594][688]Cmd: ACTOR DELETE
+[2017.10.23-07.58.28:733][688]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.23-07.58.28:756][688]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2017.10.23-07.58.29:363][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorWay)
+[2017.10.23-07.58.29:691][739]Cmd: DELETE
+[2017.10.23-07.58.29:691][739]Cmd: ACTOR DELETE
+[2017.10.23-07.58.29:692][739]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.23-07.58.29:719][739]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.10.23-07.58.30:305][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door2)
+[2017.10.23-07.58.30:505][782]Cmd: DELETE
+[2017.10.23-07.58.30:505][782]Cmd: ACTOR DELETE
+[2017.10.23-07.58.30:505][782]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.23-07.58.30:532][782]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'LDoorClosed' variable not found. Base class was probably changed.
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'LDoorClosed' variable not found. Base class was probably changed.
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'LDoor' variable not found. Base class was probably changed.
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'LDoorOpen' variable not found. Base class was probably changed.
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'LDoorOpen' variable not found. Base class was probably changed.
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'RDoorClosed' variable not found. Base class was probably changed.
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'RDoorClosed' variable not found. Base class was probably changed.
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'RDoor' variable not found. Base class was probably changed.
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'RDoorOpen' variable not found. Base class was probably changed.
+[2017.10.23-07.59.28:855][240]LogBlueprint: Warning: [SlidingDoor] 'RDoorOpen' variable not found. Base class was probably changed.
+[2017.10.23-08.00.15:056][975]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_696.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.15:056][975]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_695.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.15:057][975]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_700.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.15:057][975]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_699.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.15:059][975]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_299.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.15:059][975]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_298.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.17:858][124]LogSlate: Took 0.017278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.23-08.00.19:329][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_713.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.19:329][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_712.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.19:331][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_720.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.19:331][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_719.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.19:333][211]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_303.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.19:333][211]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_302.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.25:095][548]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_729.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.25:096][548]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_734.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.25:096][548]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_730.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.25:096][548]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_733.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.25:098][548]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_307.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.25:098][548]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_306.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.29:560][810]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_750.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.29:561][810]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_749.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.29:562][810]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_754.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.29:562][810]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_753.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.29:564][810]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_311.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.29:564][810]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_310.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.33:556][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_767.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.33:556][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_766.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.33:557][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_771.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.33:557][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_770.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.33:558][ 47]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_315.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.33:558][ 47]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_314.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.37:572][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_784.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.37:572][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_783.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.37:573][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_788.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.37:573][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_787.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.37:575][286]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_319.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.37:575][286]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_318.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.39:678][410]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_801.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.39:678][410]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_800.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.39:679][410]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_805.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.39:679][410]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_804.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.39:681][410]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_323.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.39:681][410]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_322.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.44:907][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_818.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.44:907][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_817.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.44:908][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_822.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.44:908][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_821.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.44:909][720]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_327.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.44:909][720]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_326.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.45:737][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_835.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.45:737][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_834.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.45:738][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_839.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.45:738][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_838.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.45:739][768]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_331.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.45:739][768]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_330.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.49:977][ 20]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_852.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.49:977][ 20]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_851.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.49:979][ 20]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_856.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.49:979][ 20]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_855.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.49:981][ 20]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_335.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.00.49:982][ 20]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_334.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.56:425][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_869.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.56:425][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_868.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.56:426][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_873.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.56:426][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_872.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.56:428][188]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_339.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.56:428][188]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_338.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.59:003][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_883.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.59:003][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_882.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.59:006][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_887.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.59:006][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_886.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.59:008][274]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_343.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.02.59:008][274]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_342.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.01:920][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_897.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.01:920][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_896.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.01:921][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_901.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.01:921][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_900.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.01:923][438]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_347.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.01:923][438]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_346.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.04:266][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_911.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.04:266][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_910.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.04:267][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_915.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.04:267][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_914.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.04:268][574]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_351.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.04:268][574]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_350.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.53:726][512]BlueprintLog: New page: Compile SlidingDoor
+[2017.10.23-08.03.54:649][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.54:649][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.54:650][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_686.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.54:650][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_685.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.54:652][512]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_289.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.03.54:652][512]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_288.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.06.06:778][992]LogSavePackage: Save=221.22ms
+[2017.10.23-08.06.06:778][992]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap_Auto130054C3B49D347736884DF935C9B0FEB.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.10.23-08.06.06:779][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.10.23-08.06.06:789][992]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.332
+[2017.10.23-08.06.06:789][992]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.332
+[2017.10.23-08.06.06:797][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PPGContent/Doors/DoorWay] ([1] browsable assets)...
+[2017.10.23-08.06.06:840][992]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/PPGContent/Doors/DoorWay.DoorWay]
+[2017.10.23-08.06.06:840][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PPGContent/Doors/DoorWay]
+[2017.10.23-08.06.06:874][992]LogSavePackage: Save=25.41ms
+[2017.10.23-08.06.06:874][992]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/DoorWay_Auto1BA8F7E244E7109AEDAF2A9A39FCA4BB4.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/PPGContent/Doors/DoorWay_Auto1.uasset'
+[2017.10.23-08.06.06:874][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/PPGContent/Doors/DoorWay_Auto1.uasset
+[2017.10.23-08.06.06:875][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PPGContent/Doors/Door] ([1] browsable assets)...
+[2017.10.23-08.06.06:922][992]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/PPGContent/Doors/Door.Door]
+[2017.10.23-08.06.06:922][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PPGContent/Doors/Door]
+[2017.10.23-08.06.06:961][992]LogSavePackage: Save=35.96ms
+[2017.10.23-08.06.06:961][992]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Door_Auto181E1376845816D8174218AAD150296B9.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/PPGContent/Doors/Door_Auto1.uasset'
+[2017.10.23-08.06.06:962][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/PPGContent/Doors/Door_Auto1.uasset
+[2017.10.23-08.06.06:963][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PPGContent/Doors/SlidingDoor] ([1] browsable assets)...
+[2017.10.23-08.06.07:014][992]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PPGContent/Doors/SlidingDoor.SlidingDoor]
+[2017.10.23-08.06.07:014][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PPGContent/Doors/SlidingDoor]
+[2017.10.23-08.06.07:075][992]LogSavePackage: Save=43.76ms
+[2017.10.23-08.06.07:075][992]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/SlidingDoor_Auto1D7A4220B4D4D44BCFE9A10A619BBEDDF.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/PPGContent/Doors/SlidingDoor_Auto1.uasset'
+[2017.10.23-08.06.07:076][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/PPGContent/Doors/SlidingDoor_Auto1.uasset
+[2017.10.23-08.06.07:088][992]LogFileHelpers: Auto-saving content packages took 0.280
+[2017.10.23-08.07.19:704][623]BlueprintLog: New page: Compile SlidingDoor
+[2017.10.23-08.07.20:653][623]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.07.20:653][623]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.07.20:654][623]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_686.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.07.20:654][623]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_685.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.07.20:656][623]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_289.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.07.20:656][623]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_288.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.53:124][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_697.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.53:124][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_696.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.53:125][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_701.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.53:125][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_700.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.53:127][110]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_293.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.53:127][110]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_292.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.58:359][404]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_714.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.58:359][404]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_713.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.58:360][404]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_718.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.58:360][404]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_717.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.58:363][404]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_297.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.08.58:363][404]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_SlidingDoor_C_CHILDACTOR_296.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.23-08.10.04:308][253]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.884 s
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: === Handled ensure: ===
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: 
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 365]
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'DeltaTime' on node 'VInterp To' not reciprocally linked with pin 'NewTrack_0' on node 'Add Timeline...'
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: Stack: 
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000009C413606
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000009C19C2D2
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000009C1B4746
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000009DD41863
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000009DD41689
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000009DD41109
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000099CCA60F
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000099E9E129
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000099CB32C3
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000991202AD
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x000000009912008F
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000990A8E51
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000990ADBB6
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009BAB7DD0
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009BAF6850
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000965FFFAD
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009BAA4761
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009BA760BE
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009BA77CC6
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009BAF80B7
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009BAE9B18
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000009C3EB108
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000009C3D3B51
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000009C3ED22B
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000009C3CECB2
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: USER32.dll!0x00000000F7301169
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: USER32.dll!0x00000000F7300C97
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000009C3ED936
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor.exe!0x00000000D1164BE2
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor.exe!0x00000000D1173970
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor.exe!0x00000000D11739EA
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor.exe!0x00000000D11802D9
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: UE4Editor.exe!0x00000000D1181C47
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: KERNEL32.DLL!0x00000000F51F8102
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: ntdll.dll!0x00000000F7AAC5B4
+[2017.10.23-08.10.04:308][253]LogOutputDevice: Error: 
+[2017.10.23-08.10.04:318][253]LogStats:                SubmitErrorReport -  0.000 s
