@@ -1,0 +1,966 @@
+﻿Log file open, 10/30/17 13:12:22
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-933677645) SRandInit(-933677645).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.200849
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.30-02.42.23:691][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.30-02.42.23:692][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.30-02.42.23:738][  0]LogInit: Computer: ALAN
+[2017.10.30-02.42.23:738][  0]LogInit: User: lak132
+[2017.10.30-02.42.23:738][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.30-02.42.23:738][  0]LogInit: High frequency timer resolution =2.531245 MHz
+[2017.10.30-02.42.23:739][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.30-02.42.23:739][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.30-02.42.23:739][  0]LogMemory: Process Physical Memory: 280.07 MB used, 280.07 MB peak
+[2017.10.30-02.42.23:739][  0]LogMemory: Process Virtual Memory: 291.66 MB used, 291.66 MB peak
+[2017.10.30-02.42.23:739][  0]LogMemory: Physical Memory: 6628.39 MB used,  1471.44 MB free, 8099.82 MB total
+[2017.10.30-02.42.23:739][  0]LogMemory: Virtual Memory: 687.35 MB used,  1471.44 MB free, 134217728.00 MB total
+[2017.10.30-02.42.23:918][  0]LogInit: Using OS detected language (en-US).
+[2017.10.30-02.42.23:918][  0]LogInit: Using OS detected locale (en-AU).
+[2017.10.30-02.42.23:921][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.30-02.42.24:729][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.30-02.42.24:775][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.10.30-02.42.24:775][  0]LogD3D11RHI:       4065/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.30-02.42.24:783][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.10.30-02.42.24:783][  0]LogD3D11RHI:       128/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.30-02.42.24:786][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.30-02.42.24:786][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.30-02.42.24:786][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.30-02.42.24:794][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.30-02.42.24:794][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.10.30-02.42.24:794][  0]LogWindows: EnumDisplayDevices:
+[2017.10.30-02.42.24:795][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.10.30-02.42.24:795][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.30-02.42.24:795][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.30-02.42.24:795][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.30-02.42.24:795][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.10.30-02.42.24:795][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.30-02.42.24:795][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.30-02.42.24:795][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.30-02.42.24:820][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.30-02.42.24:833][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.30-02.42.24:834][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Intermediate/Shaders/WorkingDirectory/12248/).
+[2017.10.30-02.42.24:834][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lak132/AppData/Local/Temp/UnrealShaderWorkingDir/5C2D6383413EABA111BB20B6B08756C4/'.
+[2017.10.30-02.42.24:834][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.30-02.42.25:828][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.30-02.42.25:873][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.30-02.42.25:922][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.30-02.42.25:973][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.30-02.42.26:032][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.30-02.42.26:077][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.30-02.42.26:119][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.30-02.42.26:174][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.30-02.42.26:209][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.30-02.42.26:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.30-02.42.26:317][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.30-02.42.26:363][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.30-02.42.26:409][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.30-02.42.26:470][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.30-02.42.26:512][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.30-02.42.26:594][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.30-02.42.26:595][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.30-02.42.26:633][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.30-02.42.26:743][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.30-02.42.26:770][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.30-02.42.26:811][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.30-02.42.26:856][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.30-02.42.26:899][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.30-02.42.26:947][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.30-02.42.26:948][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.30-02.42.27:354][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.30-02.42.27:570][  0]LogDerivedDataCache: Loaded boot cache 0.22s 119MB C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.30-02.42.27:570][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.30-02.42.27:571][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.30-02.42.27:571][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.30-02.42.27:571][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.30-02.42.27:571][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.30-02.42.27:594][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.30-02.42.27:608][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lak132/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.30-02.42.27:623][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.30-02.42.27:624][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.30-02.42.27:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.30-02.42.27:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.30-02.42.27:933][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.10.30-02.42.28:071][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.30-02.42.28:611][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.30-02.42.28:645][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.30-02.42.28:645][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.30-02.42.28:645][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.30-02.42.28:645][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.30-02.42.28:645][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.30-02.42.29:143][  0]LogNetVersion: Game , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2957514414)
+[2017.10.30-02.42.29:465][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.084820 seconds
+[2017.10.30-02.42.29:477][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.30-02.42.29:477][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.30-02.42.29:477][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.30-02.42.29:528][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.30-02.42.32:173][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.30-02.42.32:207][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.30-02.42.32:743][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.30-02.42.33:115][  0]SourceControl: Source control is disabled
+[2017.10.30-02.42.33:115][  0]SourceControl: Source control is disabled
+[2017.10.30-02.42.33:148][  0]SourceControl: Source control is disabled
+[2017.10.30-02.42.33:185][  0]SourceControl: Source control is disabled
+[2017.10.30-02.42.33:686][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.30-02.42.33:910][  0]LogOcInput: OculusInput pre-init called
+[2017.10.30-02.42.34:128][  0]LogEngine: Initializing Engine...
+[2017.10.30-02.42.34:130][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.30-02.42.34:485][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.30-02.42.34:485][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.30-02.42.34:633][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.30-02.42.34:653][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.30-02.42.34:690][  0]LogInit: FAudioDevice initialized.
+[2017.10.30-02.42.34:836][  0]LogDerivedDataCache: Saved boot cache 0.15s 114MB C:/Users/lak132/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.30-02.42.34:882][  0]LogInit: Texture streaming: Disabled
+[2017.10.30-02.42.34:998][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.30-02.42.35:277][  0]LogInit: Transaction tracking system initialized
+[2017.10.30-02.42.35:539][  0]BlueprintLog: New page: Editor Load
+[2017.10.30-02.42.36:933][  0]LocalizationService: Localization service is disabled
+[2017.10.30-02.42.38:017][  0]LogConsoleResponse: Display: 
+[2017.10.30-02.42.38:849][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.30-02.42.38:849][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.30-02.42.38:849][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.30-02.42.39:701][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/' took 0.14s
+[2017.10.30-02.42.39:701][  0]SourceControl: Source control is disabled
+[2017.10.30-02.42.39:751][  0]LightingResults: New page: Lighting Build
+[2017.10.30-02.42.39:786][  0]MapCheck: New page: Map Check
+[2017.10.30-02.42.39:786][  0]LightingResults: New page: Lighting Build
+[2017.10.30-02.42.51:240][  0]LogTexture: Display: Building textures: game_title_logo_1024_Ryan-Mann (AutoDXT, 576X1024)
+[2017.10.30-02.42.51:240][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.10.30-02.42.51:240][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.10.30-02.42.51:240][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X512)
+[2017.10.30-02.42.51:241][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.10.30-02.42.51:241][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.10.30-02.42.53:046][  0]LogStaticMesh: Building static mesh canned_drink...
+[2017.10.30-02.42.53:128][  0]LogStaticMesh: Built static mesh [0.08s] /Game/PPGContent/StaticAssets/canned_drink.canned_drink
+[2017.10.30-02.42.53:333][  0]LogStaticMesh: Building static mesh coffeemug1...
+[2017.10.30-02.42.53:340][  0]LogStaticMesh: Built static mesh [0.01s] /Game/PPGContent/StaticAssets/coffeemug1.coffeemug1
+[2017.10.30-02.42.53:342][  0]LogStaticMesh: Building static mesh controlpanel...
+[2017.10.30-02.42.53:383][  0]LogStaticMesh: Built static mesh [0.04s] /Game/PPGContent/StaticAssets/controlpanel.controlpanel
+[2017.10.30-02.42.53:393][  0]LogStaticMesh: Building static mesh controlpanel_button...
+[2017.10.30-02.42.53:419][  0]LogStaticMesh: Built static mesh [0.03s] /Game/PPGContent/StaticAssets/controlpanel_button.controlpanel_button
+[2017.10.30-02.42.53:429][  0]LogStaticMesh: Building static mesh couch...
+[2017.10.30-02.42.53:437][  0]LogStaticMesh: Built static mesh [0.01s] /Game/PPGContent/Furniture/couch.couch
+[2017.10.30-02.42.53:617][  0]LogStaticMesh: Building static mesh officeDesk1...
+[2017.10.30-02.42.53:619][  0]LogStaticMesh: Built static mesh [0.00s] /Game/PPGContent/Furniture/officeDesk1.officeDesk1
+[2017.10.30-02.42.55:191][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave reverse-cinematic...
+[2017.10.30-02.42.56:366][  0]LogMaterial: Missing cached shader map for material Yellow, compiling. 
+[2017.10.30-02.42.56:666][  0]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2017.10.30-02.42.56:766][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave M_line22...
+[2017.10.30-02.42.56:844][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave M_line24...
+[2017.10.30-02.42.56:953][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave M_line23...
+[2017.10.30-02.42.57:179][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave L_line6...
+[2017.10.30-02.42.57:415][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave P_line1b...
+[2017.10.30-02.42.57:619][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave P_line3...
+[2017.10.30-02.42.58:020][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.30-02.42.59:169][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.30-02.42.59:428][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.30-02.42.59:556][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 128.263ms to complete.
+[2017.10.30-02.42.59:556][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 19.855
+[2017.10.30-02.43.01:189][  0]LogCollectionManager: Loaded 0 collections in 0.001691 seconds
+[2017.10.30-02.43.01:583][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Collections/' took 0.01s
+[2017.10.30-02.43.01:583][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/Developers/lak132/Collections/' took 0.01s
+[2017.10.30-02.43.01:583][  0]LogFileCache: Scanning file cache for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/Collections/' took 0.01s
+[2017.10.30-02.43.01:583][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.30-02.43.01:673][  0]LogContentBrowser: Native class hierarchy populated in 0.0355 seconds. Added 2386 classes and 500 folders.
+[2017.10.30-02.43.01:959][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.10.30-02.43.04:011][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.30-02.43.04:185][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.10.30-02.43.06:306][  0]LogSlate: Took 0.000539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.30-02.43.06:320][  0]LogSlate: Took 0.000590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.30-02.43.06:455][  0]LogSlate: Took 0.034212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.30-02.43.07:223][  0]LogRenderer: Reallocating scene render targets to support 816x436 Format 10 NumSamples 1 (Frame:1).
+[2017.10.30-02.43.08:730][  0]LogSlate: Took 0.033629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-02.43.09:256][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.30-02.43.09:256][  0]LogLoad: (Engine Initialization) Total time: 47.75 seconds
+[2017.10.30-02.43.09:256][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.30-02.43.09:256][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.30-02.43.09:256][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.30-02.43.14:983][267]LogFileCache: Retrieving MD5 hashes for directory 'D:/Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/' took 5.65s
+[2017.10.30-02.43.15:307][286]LogAssetRegistry: Asset discovery search completed in 47.3948 seconds
+[2017.10.30-02.43.15:311][286]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.30-02.43.15:311][286]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000095 seconds (updated 0 objects)
+[2017.10.30-02.43.18:418][457]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.30-02.43.18:756][457]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-02.43.18:770][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-02.43.18:874][457]PIE: New page: PIE session: FirstPersonExampleMap (30 Oct 2017 11:43:18 pm)
+[2017.10.30-02.43.18:908][457]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.30-02.43.19:057][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148314s)
+[2017.10.30-02.43.19:061][457]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.30-02.43.19:062][457]LogPlayLevel: PIE: World Init took: (0.004545s)
+[2017.10.30-02.43.19:075][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.166792s)
+[2017.10.30-02.43.19:126][457]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.30-02.43.19:175][457]LogInit: FAudioDevice initialized.
+[2017.10.30-02.43.19:359][457]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.30-02.43.19:573][457]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.10.30-13.13.19
+[2017.10.30-02.43.19:777][457]LogWorld: Bringing up level for play took: 0.271367
+[2017.10.30-02.43.19:952][457]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.10.30-02.43.20:101][457]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-02.43.20:101][457]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-02.43.20:101][457]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-02.43.20:101][457]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-02.43.20:101][457]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/First_enemy.First_enemy_C'!
+[2017.10.30-02.43.20:175][457]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.287
+[2017.10.30-02.43.20:186][457]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-02.43.20:722][457]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.10.30-02.43.33:482][114]LogScript: Warning: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1773
+[2017.10.30-02.43.33:483][114]PIE: Error: Blueprint Runtime Error: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: DestroyActor in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+[2017.10.30-02.44.44:649][978]LogScript: Warning: Attempted to access P_Gun_Magnum_C_0 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_C_0 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1773
+[2017.10.30-02.44.44:650][978]PIE: Error: Blueprint Runtime Error: Attempted to access P_Gun_Magnum_C_0 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_C_0 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: DestroyActor in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access P_Gun_Magnum_C_0 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_C_0 is pending kill
+[2017.10.30-02.46.08:150][368]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-02.46.08:150][368]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-02.46.27:065][402]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:055A
+[2017.10.30-02.46.27:065][402]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Branch in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-02.46.27:065][402]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:0585
+[2017.10.30-02.46.27:065][402]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-02.46.27:065][402]LogScript: Warning: Accessed None
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:059A
+[2017.10.30-02.46.27:065][402]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None
+[2017.10.30-02.46.27:066][402]LogScript: Warning: Attempted to assign to None
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:05AF
+[2017.10.30-02.46.27:066][402]PIE: Error: Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Attempted to assign to None
+[2017.10.30-02.46.27:151][407]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:055A
+[2017.10.30-02.46.27:151][407]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Branch in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-02.46.27:151][407]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:0585
+[2017.10.30-02.46.27:151][407]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-02.46.27:151][407]LogScript: Warning: Accessed None
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:059A
+[2017.10.30-02.46.27:151][407]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None
+[2017.10.30-02.46.27:151][407]LogScript: Warning: Attempted to assign to None
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:05AF
+[2017.10.30-02.46.27:151][407]PIE: Error: Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Attempted to assign to None
+[2017.10.30-02.46.27:252][413]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:055A
+[2017.10.30-02.46.27:252][413]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Branch in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-02.46.27:252][413]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:0585
+[2017.10.30-02.46.27:252][413]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-02.46.27:252][413]LogScript: Warning: Accessed None
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:059A
+[2017.10.30-02.46.27:253][413]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None
+[2017.10.30-02.46.27:253][413]LogScript: Warning: Attempted to assign to None
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:05AF
+[2017.10.30-02.46.27:253][413]PIE: Error: Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Attempted to assign to None
+[2017.10.30-02.46.27:355][419]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:055A
+[2017.10.30-02.46.27:355][419]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Branch in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-02.46.27:355][419]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:0585
+[2017.10.30-02.46.27:355][419]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-02.46.27:355][419]LogScript: Warning: Accessed None
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:059A
+[2017.10.30-02.46.27:355][419]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None
+[2017.10.30-02.46.27:355][419]LogScript: Warning: Attempted to assign to None
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:05AF
+[2017.10.30-02.46.27:356][419]PIE: Error: Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Attempted to assign to None
+[2017.10.30-02.47.10:370][787]LogNet: Browse: /Game/PPGContent/Levels/MainMenu
+[2017.10.30-02.47.10:370][787]LogLoad: LoadMap: /Game/PPGContent/Levels/MainMenu
+[2017.10.30-02.47.10:466][787]Cmd: MEM
+[2017.10.30-02.47.10:591][787]LogMemory: Platform Memory Stats for Windows
+[2017.10.30-02.47.10:591][787]LogMemory: Process Physical Memory: 742.53 MB used, 1390.20 MB peak
+[2017.10.30-02.47.10:591][787]LogMemory: Process Virtual Memory: 2234.96 MB used, 2273.86 MB peak
+[2017.10.30-02.47.10:591][787]LogMemory: Physical Memory: 5445.12 MB used,  2654.71 MB free, 8099.82 MB total
+[2017.10.30-02.47.10:591][787]LogMemory: Virtual Memory: 3162.53 MB used,  2654.71 MB free, 134217728.00 MB total
+[2017.10.30-02.47.10:591][787]LogMemory: 
+[2017.10.30-02.47.10:591][787]Allocator Stats for TBB: (not implemented)
+[2017.10.30-02.47.13:534][787]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.30-02.47.13:535][787]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.30-02.47.13:536][787]LogWorld: Bringing World /Game/PPGContent/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.30-13.17.13
+[2017.10.30-02.47.13:537][787]LogWorld: Bringing up level for play took: 0.001307
+[2017.10.30-02.47.13:537][787]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.30-02.47.13:586][787]LogLoad: Took 3.215945 seconds to LoadMap(/Game/PPGContent/Levels/MainMenu)
+[2017.10.30-02.49.09:996][587]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-02.49.10:098][587]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-02.49.27:041][554]LogEditorViewport: Clicking on Actor (LMB): Tutorial_starter_C (Tutorial_starter)
+[2017.10.30-02.49.30:017][687]Cmd: TRANSACTION UNDO
+[2017.10.30-02.49.30:017][687]LogEditorTransaction: Undo Move Actors
+[2017.10.30-02.49.30:063][687]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-02.49.53:406][ 26]LogEditorViewport: Clicking on Actor (LMB): Dialogue_starter_C (Dialogue_starter2)
+[2017.10.30-02.49.56:303][172]LogEditorViewport: Clicking on Actor (LMB): Tutorial_starter_C (Tutorial_starter)
+[2017.10.30-02.50.14:019][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube22)
+[2017.10.30-02.50.15:394][242]LogEditorViewport: Clicking on Actor (LMB): GenericKeycard_Audio_C (GenericKeycard_Audio)
+[2017.10.30-02.50.26:571][855]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SpaceSuitEnemy)
+[2017.10.30-02.50.38:724][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-02.50.39:317][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-02.50.40:052][635]LogEditorViewport: Clicking on Actor (LMB): GenericKeycard_Audio_C (GenericKeycard_Audio)
+[2017.10.30-02.50.44:416][880]LogEditorViewport: Clicking on Actor (LMB): SlidingDoorWay_C (SlidingDoorWay2)
+[2017.10.30-02.50.53:173][365]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SpaceSuitEnemy)
+[2017.10.30-02.51.01:039][797]LogEditorViewport: Clicking on Actor (LMB): GenericKeycard_Audio_C (GenericKeycard_Audio)
+[2017.10.30-02.51.15:610][636]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SpaceSuitEnemy)
+[2017.10.30-02.51.24:531][141]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.30-02.51.24:592][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-02.51.24:592][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-02.51.24:592][141]PIE: New page: PIE session: FirstPersonExampleMap (30 Oct 2017 11:51:24 pm)
+[2017.10.30-02.51.24:592][141]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.30-02.51.24:636][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043504s)
+[2017.10.30-02.51.24:637][141]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.30-02.51.24:638][141]LogPlayLevel: PIE: World Init took: (0.001636s)
+[2017.10.30-02.51.24:638][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045853s)
+[2017.10.30-02.51.24:705][141]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.30-02.51.24:753][141]LogInit: FAudioDevice initialized.
+[2017.10.30-02.51.24:842][141]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.30-02.51.24:883][141]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.10.30-13.21.24
+[2017.10.30-02.51.24:887][141]LogWorld: Bringing up level for play took: 0.043860
+[2017.10.30-02.51.24:897][141]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-02.51.24:897][141]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-02.51.24:897][141]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-02.51.24:897][141]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-02.51.24:897][141]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/First_enemy.First_enemy_C'!
+[2017.10.30-02.51.24:905][141]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.018
+[2017.10.30-02.51.24:906][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-02.51.38:348][847]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:0216
+[2017.10.30-02.51.38:348][847]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.51.38:348][847]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:024F
+[2017.10.30-02.51.38:349][847]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.51.40:881][987]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:0341
+[2017.10.30-02.51.40:881][987]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.51.40:881][987]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:036D
+[2017.10.30-02.51.40:881][987]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.51.43:433][123]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:0216
+[2017.10.30-02.51.43:433][123]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.51.43:433][123]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:024F
+[2017.10.30-02.51.43:433][123]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.51.43:767][140]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:0341
+[2017.10.30-02.51.43:768][140]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.51.43:768][140]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:036D
+[2017.10.30-02.51.43:768][140]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.52.38:332][ 11]LogCharacterMovement: AI_Character4_615 is stuck and failed to move! Velocity: X=39.13 Y=238.87 Z=0.00 Location: X=-1843.70 Y=2597.81 Z=98.15 Normal: X=-0.88 Y=-0.48 Z=0.00 PenetrationDepth:5.377 Actor:AI_Character3_518 Component:CharacterMesh0 BoneName:joint10 (0 other events since notify)
+[2017.10.30-02.52.49:183][585]LogCharacterMovement: AI_Character6_813 is stuck and failed to move! Velocity: X=139.94 Y=24.81 Z=0.00 Location: X=1926.39 Y=-98.05 Z=98.23 Normal: X=-0.69 Y=0.57 Z=0.45 PenetrationDepth:0.305 Actor:AI_Character_290 Component:CharacterMesh0 BoneName:joint17 (0 other events since notify)
+[2017.10.30-02.53.24:939][445]LogCharacterMovement: AI_Character3_518 is stuck and failed to move! Velocity: X=-44.03 Y=0.81 Z=0.00 Location: X=3408.42 Y=-957.95 Z=98.11 Normal: X=0.33 Y=-0.94 Z=-0.00 PenetrationDepth:1.327 Actor:AI_Character2_415 Component:CharacterMesh0 BoneName:joint12 (0 other events since notify)
+[2017.10.30-02.53.25:056][450]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:0216
+[2017.10.30-02.53.25:056][450]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.53.25:056][450]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:024F
+[2017.10.30-02.53.25:057][450]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.53.26:537][528]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:0341
+[2017.10.30-02.53.26:537][528]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.53.26:537][528]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:036D
+[2017.10.30-02.53.26:537][528]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-02.53.31:500][786]LogScript: Warning: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1773
+[2017.10.30-02.53.31:500][786]PIE: Error: Blueprint Runtime Error: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: DestroyActor in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+[2017.10.30-02.53.36:481][ 34]LogCharacterMovement: AI_Character3_518 is stuck and failed to move! Velocity: X=-38.34 Y=10.97 Z=0.00 Location: X=2026.75 Y=-128.52 Z=98.21 Normal: X=0.53 Y=-0.84 Z=-0.05 PenetrationDepth:0.320 Actor:AI_Character_290 Component:CharacterMesh0 BoneName:joint7 (0 other events since notify)
+[2017.10.30-02.53.52:790][841]LogCharacterMovement: AI_Character6_813 is stuck and failed to move! Velocity: X=-28.24 Y=31.47 Z=0.00 Location: X=3532.97 Y=-725.20 Z=98.15 Normal: X=-1.00 Y=-0.00 Z=-0.00 PenetrationDepth:30.113 Actor:Door_GEN_VARIABLE_SlidingDoor_C_CAT_36 Component:Door BoneName:None (0 other events since notify)
+[2017.10.30-02.53.54:883][937]LogCharacterMovement: AI_Character6_813 is stuck and failed to move! Velocity: X=-7.33 Y=-69.86 Z=0.00 Location: X=3506.70 Y=-724.54 Z=98.15 Normal: X=-1.00 Y=-0.08 Z=-0.00 PenetrationDepth:3.672 Actor:Door_GEN_VARIABLE_SlidingDoor_C_CAT_36 Component:Door BoneName:None (17 other events since notify)
+[2017.10.30-02.53.55:886][989]LogCharacterMovement: AI_Character6_813 is stuck and failed to move! Velocity: X=-192.47 Y=568.29 Z=0.00 Location: X=3535.78 Y=-801.47 Z=98.15 Normal: X=-1.00 Y=-0.00 Z=-0.00 PenetrationDepth:32.888 Actor:Door_GEN_VARIABLE_SlidingDoor_C_CAT_36 Component:Door BoneName:None (7 other events since notify)
+[2017.10.30-02.54.05:736][445]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-536.11 Y=269.43 Z=0.00 Location: X=3681.34 Y=-784.73 Z=98.15 Normal: X=0.71 Y=0.71 Z=0.00 PenetrationDepth:1.292 Actor:ChildActor_GEN_VARIABLE_SlidingDoor_C_CAT_38 Component:Door BoneName:None (0 other events since notify)
+[2017.10.30-02.55.39:123][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-02.55.39:276][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-02.55.50:220][140]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SpaceSuitEnemy)
+[2017.10.30-02.55.59:531][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube24)
+[2017.10.30-02.56.02:884][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube23)
+[2017.10.30-02.56.09:745][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube24)
+[2017.10.30-02.56.18:482][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CargoContainer3)
+[2017.10.30-02.56.19:496][801]Cmd: DELETE
+[2017.10.30-02.56.19:496][801]Cmd: ACTOR DELETE
+[2017.10.30-02.56.19:533][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-02.56.19:546][801]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2017.10.30-02.57.13:871][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube23)
+[2017.10.30-02.57.21:749][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube24)
+[2017.10.30-02.57.26:692][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube22)
+[2017.10.30-02.57.39:818][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube26)
+[2017.10.30-02.57.42:251][413]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube25)
+[2017.10.30-02.57.53:474][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube23)
+[2017.10.30-02.57.55:354][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube24)
+[2017.10.30-02.58.11:275][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube26)
+[2017.10.30-02.58.20:415][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube25)
+[2017.10.30-02.58.21:280][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pipe5)
+[2017.10.30-02.58.22:518][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-02.58.23:203][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-02.58.24:045][800]LogEditorViewport: Clicking on Actor (LMB): Dialogue_starter_C (Dialogue_starter2)
+[2017.10.30-02.58.35:322][425]LogEditorViewport: Clicking on Actor (LMB): Tutorial_starter_C (Tutorial_starter)
+[2017.10.30-02.59.11:166][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube26)
+[2017.10.30-02.59.55:896][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube27)
+[2017.10.30-02.59.59:496][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube28)
+[2017.10.30-03.00.29:055][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube26)
+[2017.10.30-03.00.30:057][163]Cmd: EDIT COPY
+[2017.10.30-03.00.30:257][172]Cmd: EDIT PASTE
+[2017.10.30-03.00.35:151][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-03.00.35:648][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube27)
+[2017.10.30-03.00.58:445][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube24)
+[2017.10.30-03.00.59:268][856]Cmd: EDIT COPY
+[2017.10.30-03.00.59:485][868]Cmd: EDIT PASTE
+[2017.10.30-03.01.06:470][273]Cmd: EDIT COPY
+[2017.10.30-03.01.06:664][284]Cmd: EDIT PASTE
+[2017.10.30-03.01.09:176][429]Cmd: EDIT PASTE
+[2017.10.30-03.01.16:453][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube28)
+[2017.10.30-03.01.17:112][892]Cmd: EDIT COPY
+[2017.10.30-03.01.17:314][903]Cmd: EDIT PASTE
+[2017.10.30-03.01.19:776][ 45]Cmd: EDIT PASTE
+[2017.10.30-03.01.21:519][142]Cmd: EDIT PASTE
+[2017.10.30-03.01.24:525][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube34)
+[2017.10.30-03.01.25:942][398]Cmd: EDIT COPY
+[2017.10.30-03.01.26:131][408]Cmd: EDIT PASTE
+[2017.10.30-03.01.27:841][503]Cmd: EDIT COPY
+[2017.10.30-03.01.28:008][512]Cmd: EDIT PASTE
+[2017.10.30-03.01.40:141][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube34)
+[2017.10.30-03.03.15:781][551]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-03.03.16:944][551]LogSavePackage: Save=993.60ms
+[2017.10.30-03.03.16:944][551]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap_Auto12E5B4FBB4BB650DF3772D19262F17F44.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.10.30-03.03.16:945][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.10.30-03.03.16:950][551]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.099
+[2017.10.30-03.03.16:950][551]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.099
+[2017.10.30-03.03.53:499][723]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.30-03.03.53:561][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-03.03.53:561][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-03.03.53:561][723]PIE: New page: PIE session: FirstPersonExampleMap (31 Oct 2017 12:03:53 am)
+[2017.10.30-03.03.53:561][723]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.30-03.03.53:605][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044599s)
+[2017.10.30-03.03.53:607][723]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.30-03.03.53:607][723]LogPlayLevel: PIE: World Init took: (0.001512s)
+[2017.10.30-03.03.53:608][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.046787s)
+[2017.10.30-03.03.53:634][723]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.30-03.03.53:665][723]LogInit: FAudioDevice initialized.
+[2017.10.30-03.03.53:721][723]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.30-03.03.53:745][723]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.10.30-13.33.53
+[2017.10.30-03.03.53:748][723]LogWorld: Bringing up level for play took: 0.024760
+[2017.10.30-03.03.53:755][723]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-03.03.53:755][723]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-03.03.53:756][723]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-03.03.53:756][723]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-03.03.53:756][723]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/First_enemy.First_enemy_C'!
+[2017.10.30-03.03.53:767][723]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.121
+[2017.10.30-03.03.53:767][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-03.04.08:424][480]LogScript: Warning: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1773
+[2017.10.30-03.04.08:424][480]PIE: Error: Blueprint Runtime Error: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: DestroyActor in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+[2017.10.30-03.04.19:012][ 53]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:0216
+[2017.10.30-03.04.19:012][ 53]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.04.19:012][ 53]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:024F
+[2017.10.30-03.04.19:012][ 53]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.04.20:479][137]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:0341
+[2017.10.30-03.04.20:480][137]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.04.20:480][137]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:036D
+[2017.10.30-03.04.20:480][137]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.04.23:888][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-03.04.24:031][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-03.04.30:790][696]LogEditorViewport: Clicking on Actor (LMB): GenericKeycard_Audio_C (GenericKeycard_Audio)
+[2017.10.30-03.04.52:820][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube23)
+[2017.10.30-03.04.53:664][ 11]Cmd: EDIT COPY
+[2017.10.30-03.04.53:846][ 21]Cmd: EDIT PASTE
+[2017.10.30-03.05.07:904][798]Cmd: EDIT COPY
+[2017.10.30-03.05.08:086][809]Cmd: EDIT PASTE
+[2017.10.30-03.05.14:212][163]Cmd: EDIT COPY
+[2017.10.30-03.05.14:396][170]Cmd: EDIT PASTE
+[2017.10.30-03.05.23:787][714]Cmd: EDIT COPY
+[2017.10.30-03.05.23:998][726]Cmd: EDIT PASTE
+[2017.10.30-03.05.37:154][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube42)
+[2017.10.30-03.05.37:630][507]Cmd: EDIT COPY
+[2017.10.30-03.05.37:796][517]Cmd: EDIT PASTE
+[2017.10.30-03.05.41:164][714]Cmd: EDIT COPY
+[2017.10.30-03.05.41:334][724]Cmd: EDIT PASTE
+[2017.10.30-03.05.51:560][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube42)
+[2017.10.30-03.05.52:142][327]Cmd: EDIT COPY
+[2017.10.30-03.05.52:297][336]Cmd: EDIT PASTE
+[2017.10.30-03.07.30:707][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube45)
+[2017.10.30-03.07.31:374][562]Cmd: EDIT COPY
+[2017.10.30-03.07.31:561][573]Cmd: EDIT PASTE
+[2017.10.30-03.07.42:654][208]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2017.10.30-03.07.56:401][969]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2017.10.30-03.08.06:773][552]LogEditorViewport: Clicking on Actor (LMB): SlidingDoorWay_C (SlidingDoorWay4)
+[2017.10.30-03.08.07:478][590]LogEditorViewport: Clicking on Actor (LMB): SlidingDoorWay_C (SlidingDoorWay4)
+[2017.10.30-03.08.07:971][616]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight4)
+[2017.10.30-03.08.13:933][942]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight6)
+[2017.10.30-03.08.17:185][115]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight12)
+[2017.10.30-03.08.22:212][410]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight6)
+[2017.10.30-03.08.43:453][650]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight13)
+[2017.10.30-03.08.57:544][454]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight10)
+[2017.10.30-03.09.07:549][ 13]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight8)
+[2017.10.30-03.09.08:326][ 57]Cmd: DELETE
+[2017.10.30-03.09.08:326][ 57]Cmd: ACTOR DELETE
+[2017.10.30-03.09.09:656][ 57]LogEditorActor: Deleted Actor: SpotLight
+[2017.10.30-03.09.09:675][ 57]LogEditorActor: Deleted 1 Actors (1.349 secs)
+[2017.10.30-03.09.10:650][114]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight9)
+[2017.10.30-03.09.11:232][146]Cmd: DELETE
+[2017.10.30-03.09.11:232][146]Cmd: ACTOR DELETE
+[2017.10.30-03.09.12:549][146]LogEditorActor: Deleted Actor: SpotLight
+[2017.10.30-03.09.12:566][146]LogEditorActor: Deleted 1 Actors (1.332 secs)
+[2017.10.30-03.09.14:307][249]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight11)
+[2017.10.30-03.09.14:814][276]Cmd: DELETE
+[2017.10.30-03.09.14:814][276]Cmd: ACTOR DELETE
+[2017.10.30-03.09.27:378][276]LogEditorActor: Deleted Actor: SpotLight
+[2017.10.30-03.09.27:391][276]LogEditorActor: Deleted 1 Actors (12.577 secs)
+[2017.10.30-03.09.28:580][340]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight10)
+[2017.10.30-03.09.29:736][406]Cmd: EDIT COPY
+[2017.10.30-03.09.29:919][416]Cmd: EDIT PASTE
+[2017.10.30-03.09.34:255][668]Cmd: EDIT PASTE
+[2017.10.30-03.09.38:605][923]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight11)
+[2017.10.30-03.09.40:470][ 29]Cmd: EDIT COPY
+[2017.10.30-03.09.40:673][ 41]Cmd: EDIT PASTE
+[2017.10.30-03.09.47:250][409]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight11)
+[2017.10.30-03.09.55:200][871]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight32)
+[2017.10.30-03.10.00:706][180]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight11)
+[2017.10.30-03.10.04:040][375]Cmd: TRANSACTION UNDO
+[2017.10.30-03.10.04:040][375]LogEditorTransaction: Undo Move Actors
+[2017.10.30-03.10.06:890][514]LogBlueprint: Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Node  Unknown  is not referencing a valid level actor
+[2017.10.30-03.10.06:890][514]LogBlueprint: Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Node  Unknown  is not referencing a valid level actor
+[2017.10.30-03.10.06:890][514]LogBlueprint: Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Node  Unknown  is not referencing a valid level actor
+[2017.10.30-03.10.06:895][514]LogBlueprint: Warning: [Compiler PersistentLevel.FirstPersonExampleMap] [1665.39] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 58 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.10.30-03.10.07:698][514]LogSavePackage: Save=883.46ms
+[2017.10.30-03.10.07:698][514]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap8100C92A46A170A555401FAA224B2558.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.10.30-03.10.07:706][514]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.10.30-03.10.08:071][514]LogSavePackage: Save=222.41ms
+[2017.10.30-03.10.08:071][514]LogSavePackage: Moving '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Saved/FirstPersonExampleMap_BuiltDataA89463864B09CA9F652693A1C1B783E4.tmp' to '../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.10.30-03.10.08:073][514]LogSavePackage: Display: Finished SavePackage ../../../../../../Google Drive/School/COMP3752 (Comp Game Design)/UE4 Game/PewPewGames/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.10.30-03.10.15:426][860]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0033 seconds. Added 113 classes and 0 folders.
+[2017.10.30-03.10.17:257][860]LogSlate: Took 0.019435 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.30-03.10.17:812][861]LogSlate: Took 0.014560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.30-03.10.57:511][101]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight19)
+[2017.10.30-03.10.58:622][164]Cmd: DELETE
+[2017.10.30-03.10.58:622][164]Cmd: ACTOR DELETE
+[2017.10.30-03.10.59:853][164]LogEditorActor: Deleted Actor: SpotLight
+[2017.10.30-03.10.59:887][164]LogEditorActor: Deleted 1 Actors (1.264 secs)
+[2017.10.30-03.11.01:357][245]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight17)
+[2017.10.30-03.11.01:624][256]Cmd: DELETE
+[2017.10.30-03.11.01:624][256]Cmd: ACTOR DELETE
+[2017.10.30-03.11.03:078][256]LogEditorActor: Deleted Actor: SpotLight
+[2017.10.30-03.11.03:102][256]LogEditorActor: Deleted 1 Actors (1.478 secs)
+[2017.10.30-03.11.04:775][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-03.11.05:368][385]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight16)
+[2017.10.30-03.11.08:380][561]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight18)
+[2017.10.30-03.11.21:383][306]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight27)
+[2017.10.30-03.11.24:815][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bench4)
+[2017.10.30-03.11.27:522][640]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight28)
+[2017.10.30-03.11.37:033][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-03.11.37:828][234]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight27)
+[2017.10.30-03.11.45:399][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-03.11.45:800][678]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight26)
+[2017.10.30-03.11.47:143][751]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight27)
+[2017.10.30-03.11.49:330][876]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight26)
+[2017.10.30-03.11.53:430][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-03.11.53:916][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map2)
+[2017.10.30-03.11.54:576][170]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight25)
+[2017.10.30-03.12.11:545][123]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.30-03.12.11:627][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-03.12.11:627][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.30-03.12.11:627][123]PIE: New page: PIE session: FirstPersonExampleMap (31 Oct 2017 12:12:11 am)
+[2017.10.30-03.12.11:627][123]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.10.30-03.12.11:675][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047575s)
+[2017.10.30-03.12.11:677][123]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.30-03.12.11:677][123]LogPlayLevel: PIE: World Init took: (0.002313s)
+[2017.10.30-03.12.11:677][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.050435s)
+[2017.10.30-03.12.11:708][123]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.30-03.12.11:740][123]LogInit: FAudioDevice initialized.
+[2017.10.30-03.12.11:795][123]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.30-03.12.11:811][123]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.10.30-13.42.11
+[2017.10.30-03.12.11:814][123]LogWorld: Bringing up level for play took: 0.018233
+[2017.10.30-03.12.11:816][123]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-03.12.11:816][123]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-03.12.11:816][123]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-03.12.11:816][123]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Character.AI_Character_C'!
+[2017.10.30-03.12.11:816][123]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'patrol-points' of length 0 in '/Game/PPGContent/Characters/Enemy/Base_Enemy/First_enemy.First_enemy_C'!
+[2017.10.30-03.12.11:821][123]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.067
+[2017.10.30-03.12.11:821][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.10.30-03.12.49:780][ 75]LogScript: Warning: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1773
+[2017.10.30-03.12.49:781][ 75]PIE: Error: Blueprint Runtime Error: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: DestroyActor in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access P_Gun_Magnum_205 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_205 is pending kill
+[2017.10.30-03.13.10:465][139]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	SlidingDoorWay_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SlidingDoorWay2_3605
+	Function /Game/PPGContent/Doors/SlidingDoorWay.SlidingDoorWay_C:ExecuteUbergraph_SlidingDoorWay:0216
+[2017.10.30-03.13.10:465][139]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.10:466][139]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.17:874][547]Set new viewmode: Lit
+[2017.10.30-03.13.18:537][584]Set new viewmode: Lit_DetailLighting
+[2017.10.30-03.13.19:284][626]Set new viewmode: Unlit
+[2017.10.30-03.13.20:003][667]Set new viewmode: Wireframe
+[2017.10.30-03.13.20:753][710]Set new viewmode: Unlit
+[2017.10.30-03.13.20:990][724]Set new viewmode: Lit
+[2017.10.30-03.13.21:294][742]Set new viewmode: Lit_DetailLighting
+[2017.10.30-03.13.21:638][762]Set new viewmode: ShaderComplexity
+[2017.10.30-03.13.22:598][815]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.22:599][815]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.23:626][864]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.23:627][864]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.24:597][918]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.24:597][918]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.32:761][384]Set new viewmode: Unlit
+[2017.10.30-03.13.35:342][524]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.35:342][524]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.36:912][613]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.36:913][613]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.39:323][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.39:323][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.40:956][830]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.40:957][830]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_SlidingDoorWay' from node: Branch in graph: EventGraph in object: SlidingDoorWay with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.10.30-03.13.42:687][928]Set new viewmode: Lit_DetailLighting
+[2017.10.30-03.13.43:172][956]Set new viewmode: Unlit
+[2017.10.30-03.13.43:791][992]Set new viewmode: Lit
+[2017.10.30-03.13.44:235][ 18]Set new viewmode: Lit_DetailLighting
+[2017.10.30-03.13.44:537][ 35]Set new viewmode: Lit
+[2017.10.30-03.13.44:875][ 53]Set new viewmode: Lit_DetailLighting
+[2017.10.30-03.13.45:698][ 98]Set new viewmode: Lit
+[2017.10.30-03.13.46:724][147]Set new viewmode: Lit_DetailLighting
+[2017.10.30-03.13.50:241][334]Set new viewmode: Wireframe
+[2017.10.30-03.13.59:752][855]LogScript: Warning: Attempted to access P_Gun_Magnum_C_0 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_C_0 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1773
+[2017.10.30-03.13.59:752][855]PIE: Error: Blueprint Runtime Error: Attempted to access P_Gun_Magnum_C_0 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_C_0 is pending kill from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: DestroyActor in graph: EventGraph in object: FirstPersonCharacter with description: Attempted to access P_Gun_Magnum_C_0 via property K2Node_DynamicCast_AsP_Gun_Magnum, but P_Gun_Magnum_C_0 is pending kill
+[2017.10.30-03.14.38:347][913]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-529.84 Y=281.54 Z=0.00 Location: X=1019.50 Y=175.33 Z=96.08 Normal: X=0.41 Y=-0.43 Z=-0.81 PenetrationDepth:0.359 Actor:AI_Character_290 Component:CharacterMesh0 BoneName:joint10 (0 other events since notify)
+[2017.10.30-03.15.50:634][819]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.50:635][819]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.50:954][836]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.50:954][836]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.51:271][854]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.51:272][854]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.51:563][868]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.51:563][868]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.51:867][882]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.51:867][882]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.52:186][899]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.52:187][899]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.52:522][917]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.52:523][917]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.52:860][935]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.52:860][935]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.53:252][956]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.53:252][956]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.53:692][979]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.53:692][979]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.54:073][  0]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.54:073][  0]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.54:406][ 19]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.54:406][ 19]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.54:694][ 33]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.54:694][ 33]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.54:978][ 48]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.54:979][ 48]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.56:874][145]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.56:874][145]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.57:193][161]LogScript: Warning: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+	AI_Boss_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AI_Boss_132
+	Function /Game/PPGContent/Characters/Enemy/Base_Enemy/AI_Boss.AI_Boss_C:ExecuteUbergraph_AI_Boss:0162
+[2017.10.30-03.15.57:193][161]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.57:507][176]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.57:882][196]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.58:194][214]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.58:545][234]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.58:924][255]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.59:269][275]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.59:607][291]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.15.59:886][304]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.00:227][317]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.00:502][330]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.00:837][347]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.01:178][361]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.01:544][381]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.01:857][398]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.02:222][418]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.02:589][437]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.02:927][453]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.03:248][468]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.03:562][482]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.03:879][497]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Attempted to access CollisionCylinder via property CapsuleComponent, but CollisionCylinder is pending kill
+[2017.10.30-03.16.17:234][209]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Self_Destruct_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Self_Destruct_305
+	Function /Game/PPGContent/Items/Self_Destruct.Self_Destruct_C:ExecuteUbergraph_Self_Destruct:055A
+[2017.10.30-03.16.17:234][209]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Branch in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-03.16.17:235][209]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-03.16.17:235][209]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None
+[2017.10.30-03.16.17:235][209]PIE: Error: Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Attempted to assign to None
+[2017.10.30-03.16.17:343][215]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Branch in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-03.16.17:343][215]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-03.16.17:343][215]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None
+[2017.10.30-03.16.17:343][215]PIE: Error: Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Attempted to assign to None
+[2017.10.30-03.16.17:434][220]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Branch in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-03.16.17:435][220]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2017.10.30-03.16.17:435][220]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Accessed None
+[2017.10.30-03.16.17:435][220]PIE: Error: Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_Self_Destruct' from node: Set UI-Text in graph: EventGraph in object: Self_Destruct with description: Attempted to assign to None
+[2017.10.30-03.16.22:001][469]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:04AE
+[2017.10.30-03.16.22:001][469]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_FirstPersonExampleMap_RefProperty from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None trying to read property None_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+[2017.10.30-03.16.22:001][469]LogScript: Warning: Accessed None
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:04C3
+[2017.10.30-03.16.22:001][469]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None
+[2017.10.30-03.16.22:002][469]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:0507
+[2017.10.30-03.16.22:002][469]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_FirstPersonExampleMap_RefProperty from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None trying to read property None_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+[2017.10.30-03.16.22:002][469]LogScript: Warning: Accessed None
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:051C
+[2017.10.30-03.16.22:002][469]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None
+[2017.10.30-03.16.22:002][469]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:05B9
+[2017.10.30-03.16.22:002][469]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_FirstPersonExampleMap_RefProperty from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None trying to read property None_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+[2017.10.30-03.16.22:002][469]LogScript: Warning: Accessed None
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:05CE
+[2017.10.30-03.16.22:002][469]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None
+[2017.10.30-03.16.22:002][469]LogScript: Warning: Accessed None trying to read property SpotLight17_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:07CF
+[2017.10.30-03.16.22:002][469]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property SpotLight17_ExecuteUbergraph_FirstPersonExampleMap_RefProperty from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None trying to read property SpotLight17_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+[2017.10.30-03.16.22:002][469]LogScript: Warning: Accessed None
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:07E4
+[2017.10.30-03.16.22:002][469]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None
+[2017.10.30-03.16.22:003][469]LogScript: Warning: Accessed None trying to read property SpotLight19_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:0881
+[2017.10.30-03.16.22:003][469]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property SpotLight19_ExecuteUbergraph_FirstPersonExampleMap_RefProperty from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None trying to read property SpotLight19_ExecuteUbergraph_FirstPersonExampleMap_RefProperty
+[2017.10.30-03.16.22:003][469]LogScript: Warning: Accessed None
+	FirstPersonExampleMap_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_2
+	Function /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:0896
+[2017.10.30-03.16.22:003][469]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonExampleMap' from node: Set Light Color in graph: EventGraph in object: FirstPersonExampleMap with description: Accessed None
+[2017.10.30-03.16.23:444][548]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CapsuleComponent from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Accessed None trying to read property CapsuleComponent
+[2017.10.30-03.16.24:159][590]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CapsuleComponent from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Accessed None trying to read property CapsuleComponent
+[2017.10.30-03.16.24:535][611]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CapsuleComponent from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Accessed None trying to read property CapsuleComponent
+[2017.10.30-03.16.24:897][632]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CapsuleComponent from function: 'ExecuteUbergraph_AI_Boss' from node: DestroyComponent in graph: EventGraph in object: AI_Boss with description: Accessed None trying to read property CapsuleComponent
+[2017.10.30-03.17.08:916][ 49]LogNet: Browse: /Game/PPGContent/Levels/MainMenu
+[2017.10.30-03.17.08:918][ 49]LogLoad: LoadMap: /Game/PPGContent/Levels/MainMenu
+[2017.10.30-03.17.08:961][ 49]Cmd: MEM
+[2017.10.30-03.17.08:981][ 49]LogMemory: Platform Memory Stats for Windows
+[2017.10.30-03.17.08:981][ 49]LogMemory: Process Physical Memory: 922.42 MB used, 1390.20 MB peak
+[2017.10.30-03.17.08:981][ 49]LogMemory: Process Virtual Memory: 3339.27 MB used, 3339.27 MB peak
+[2017.10.30-03.17.08:981][ 49]LogMemory: Physical Memory: 5932.87 MB used,  2166.96 MB free, 8099.82 MB total
+[2017.10.30-03.17.08:981][ 49]LogMemory: Virtual Memory: 4249.06 MB used,  2166.96 MB free, 134217728.00 MB total
+[2017.10.30-03.17.08:981][ 49]LogMemory: 
+[2017.10.30-03.17.08:982][ 49]Allocator Stats for TBB: (not implemented)
+[2017.10.30-03.17.09:005][ 49]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.30-03.17.09:005][ 49]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.30-03.17.09:008][ 49]LogWorld: Bringing World /Game/PPGContent/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.30-13.47.09
+[2017.10.30-03.17.09:008][ 49]LogWorld: Bringing up level for play took: 0.001102
+[2017.10.30-03.17.09:008][ 49]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.30-03.17.09:012][ 49]LogLoad: Took 0.093483 seconds to LoadMap(/Game/PPGContent/Levels/MainMenu)
+[2017.10.30-03.18.21:565][250]LogNet: Browse: /Game/PPGContent/Levels/GameWorld
+[2017.10.30-03.18.21:565][250]LogLoad: LoadMap: /Game/PPGContent/Levels/GameWorld
+[2017.10.30-03.18.21:600][250]Cmd: MEM
+[2017.10.30-03.18.21:620][250]LogMemory: Platform Memory Stats for Windows
+[2017.10.30-03.18.21:620][250]LogMemory: Process Physical Memory: 916.89 MB used, 1390.20 MB peak
+[2017.10.30-03.18.21:620][250]LogMemory: Process Virtual Memory: 3097.13 MB used, 3418.46 MB peak
+[2017.10.30-03.18.21:620][250]LogMemory: Physical Memory: 5929.71 MB used,  2170.11 MB free, 8099.82 MB total
+[2017.10.30-03.18.21:620][250]LogMemory: Virtual Memory: 4171.75 MB used,  2170.11 MB free, 134217728.00 MB total
+[2017.10.30-03.18.21:620][250]LogMemory: 
+[2017.10.30-03.18.21:620][250]Allocator Stats for TBB: (not implemented)
+[2017.10.30-03.18.23:620][250]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.10.30-03.18.23:620][250]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.10.30-03.18.23:620][250]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X512)
+[2017.10.30-03.18.23:620][250]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.10.30-03.18.23:620][250]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.10.30-03.18.24:152][250]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.519 s
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: === Handled ensure: ===
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: 
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1315]
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: 
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: Stack: 
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000A3E33606
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000A3BBC2D2
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000A3BD4746
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x000000009EF6D6C9
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x000000009EF3C9DD
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000B1490F67
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000B179B856
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000B17B1956
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000B17B0EA2
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000942EDD7B
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000942A6758
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000009430D50D
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000A25CBF40
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000A2E5CEE6
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor.exe!0x000000003729534A
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor.exe!0x00000000372A3970
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor.exe!0x00000000372A39EA
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor.exe!0x00000000372B02D9
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: UE4Editor.exe!0x00000000372B1C47
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: KERNEL32.DLL!0x00000000F51F8102
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: ntdll.dll!0x00000000F7AAC5B4
+[2017.10.30-03.18.24:152][250]LogOutputDevice: Error: 
+[2017.10.30-03.18.24:155][250]LogStats:                SubmitErrorReport -  0.000 s
